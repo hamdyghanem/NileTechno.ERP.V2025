@@ -30,3 +30,7 @@ If your reports are not working correctly, please perform the following checks a
 
 ### Changing the Background Image
 If you want to change the background image without changing the overall theme, rename your desired image file to `default`.
+
+The image folder is .\Images\bg\
+<img width="1109" height="336" alt="image" src="https://github.com/user-attachments/assets/35892f14-2e4f-4545-b528-88fce0050370" />
+
