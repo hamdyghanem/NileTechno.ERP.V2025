@@ -1,0 +1,557 @@
+{
+  "LOVGrid": [
+    {
+      "LOVID": 1,
+      "columns": [
+        {
+          "ColumnName": "القيمة",
+          "ColumnName_Ar": "القيمة",
+          "ColumnName_En": "Value",
+          "ColumnOrdinal": 1,
+          "ColumnWidth": 100,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "الاسم",
+          "ColumnName_Ar": "ا
+          olumnOrdinal":1,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"الاسم","ColumnName_Ar":"الاسم","ColumnName_En":"Name","ColumnOrdinal":2,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontS e
+        },
+        {
+          "ColumnName": "الاسم",
+          "ColumnName_Ar": "الاسم",
+          "ColumnName_En": "Name",
+          "ColumnOrdinal": 2,
+          "ColumnWidth": 100,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        }
+      ]
+    },
+    {
+      "LOVID": 13,
+      "columns": [
+        {
+          "ColumnName": "القيمة",
+          "ColumnName_Ar": "القيمة",
+          " ":50,"
+          ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":42,"columns":[{"ColumnName":"القيمة","ColumnName_Ar":"القيمة","ColumnName_En":"القيمة","ColumnOrdinal":2,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSi Name":"Id","ColumnName_Ar":"الرقم","ColumnName_En":"Id","ColumnOrdinal":1,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"Type","ColumnName_Ar":"النوع","ColumnName_En":"Type","ColumnOrdinal":2,"Col
+          nFontBold":false},{"ColumnName":"Type","ColumnName_Ar":"النوع","ColumnName_En":"Type","ColumnOrdinal":2,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":55,"columns":[{"ColumnName":"القيمة","ColumnName_ olumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":61,"columns":[{"ColumnName":"Id","ColumnName_Ar":"الرقم","ColumnName_En":"Id","ColumnOrdinal":1,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},
+          al":2,"ColumnWidth":50,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"ColumnName":"groupname_ar","ColumnName_Ar":"groupname_ar","ColumnName_En":"groupname_ar","ColumnOrdinal":1,"ColumnWidth":50,"ColumnType":0,"ColumnColor":8,"C fullname","ColumnName_En":"userfullname","ColumnOrdinal":2,"ColumnWidth":50,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false}]},{"LOVID":1010,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":3,
+          mnFontBold":false},{"ColumnName":"glaccid","ColumnName_Ar":"glaccid","ColumnName_En":"glaccid","ColumnOrdinal":2,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":1018,"columns":[{"ColumnName":"id","Column ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"glentryheaderid","ColumnName_Ar":"glentryheaderid","ColumnName_En":"glentryheaderid","ColumnOrdinal":34,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"Co
+          me_En":"customerprice","ColumnOrdinal":24,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"supplierprice","ColumnName_Ar":"supplierprice","ColumnName_En":"supplierprice","ColumnOrdinal":23,"ColumnWid ":0,"
+          ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"converted","ColumnName_Ar":"converted","ColumnName_En":"converted","ColumnOrdinal":13,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"ta olumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"insertdatetime","ColumnName_Ar":"insertdatetime","ColumnName_En":"insertdatetime","ColumnOrdinal":2,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"Col
+          Name_Ar":"code","ColumnName_En":"code","ColumnOrdinal":2,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"name_ar","ColumnName_Ar":"name_ar","ColumnName_En":"name_ar","ColumnOrdinal":1,"ColumnWidth" parentname","ColumnName_En":"parentname","ColumnOrdinal":1,"ColumnWidth":150,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":1116,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":3
+          ontSize":8,"ColumnFontBold":false},{"ColumnName":"transnote","ColumnName_Ar":"transnote","ColumnName_En":"transnote","ColumnOrdinal":2,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"status","ColumnN olumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"glaccid","ColumnName_Ar":"glaccid","ColumnName_En":"glaccid","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"glacccode","Col
+          umnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":1125,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":3,"ColumnWidth":0,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBol ":2,"
+          ColumnWidth":250,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":1,"ColumnWidth":100,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"Column insertuserid","ColumnName_En":"insertuserid","ColumnOrdinal":4,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"updateuserid","ColumnName_Ar":"updateuserid","ColumnName_En":"updateuserid","ColumnOrdi
+          50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "glposted",
+          "ColumnName_Ar": "glposted",
+          "ColumnName_En": "glposted",
+          "ColumnOrdinal": 6,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold lumnFontBold":false},{"ColumnName":"transdate","ColumnName_Ar":"transdate","ColumnName_En":"transdate","ColumnOrdinal":9,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"total","ColumnName_Ar":"total
+          ","
+          ColumnOrdinal":2,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"transdate","ColumnName_Ar":"transdate","ColumnName_En":"transdate","ColumnOrdinal":3,"ColumnWidth":100,"ColumnType":0,"ColumnColo: false
+        },
+        {
+          "ColumnName": "DueDate",
+          "ColumnName_Ar": "DueDate",
+          "ColumnName_En": "DueDate",
+          "ColumnOrdinal": 8,
+          "ColumnWidth": 100,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "CheckNum",
+          "ColumnName_Ar": "CheckNum",
+          "ColumnNam e","ColumnOrdinal":18,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"UpdateDateTime","ColumnName_Ar":"UpdateDateTime","ColumnName_En":"UpdateDateTime","ColumnOrdinal":19,"ColumnWidth":100,"ColumnT
+          s":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"ColumnName":"name","ColumnName_Ar":"name","ColumnName_En":"name","ColumnOrdinal"
+        },
+        {
+          "ColumnName": "name_ar",
+          "ColumnName_Ar": "name_ar",
+          "ColumnName_En": "name_ar",
+          "ColumnOrdinal": 1,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        }
+      ]
+    },
+    {
+      "LOVID": 1503,
+      "columns": [
+        {
+          "ColumnName": "id",
+          "ColumnName_Ar": "id",
+          "C: 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "code",
+          "ColumnName_Ar": "code",
+          "ColumnName_En": "code",
+          "ColumnOrdinal": 2,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "name_ar",
+          "ColumnName_Ar": "name_ar",
+          "Co ze":8,"ColumnFontBold":false}]},{"LOVID":1511,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":3,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"code","ColumnNa
+          mnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":1515,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":4,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBol rdinal":1,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":2,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"
+          lumnOrdinal":1,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":1609,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor ","
+          ColumnOrdinal":4,"ColumnWidth":180,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"itembarcode","ColumnName_Ar":"itembarcode","ColumnName_En":"itembarcode","ColumnOrdinal":3,"ColumnWidth":70,"ColumnType":0,"Colum e","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":1,"ColumnWidth":50,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false}]},{"LOVID":2006,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrd
+          ame":"address","ColumnName_Ar":"address","ColumnName_En":"address","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"regionname","ColumnName_Ar":"regionname","ColumnName_En":"regionn ":0,"
+          ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":0,"ColumnWidth":50,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"ColumnName":"name","ColumnName_Ar":"name","ColumnN nColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"itemnotes","ColumnName_Ar":"itemnotes","ColumnName_En":"itemnotes","ColumnOrdinal":6,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":20
+          Type":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false}]},{"LOVID":2020,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":2,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold": olumnName_Ar":"headerid","ColumnName_En":"headerid","ColumnOrdinal":6,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":5,"ColumnWid
+          e
+        },
+        {
+          "ColumnName": "total",
+          "ColumnName_Ar": "total",
+          "ColumnName_En": "total",
+          "ColumnOrdinal": 2,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "nettotal",
+          "ColumnName_Ar": "nettotal",
+          "ColumnName_En": "netto
+          olumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"transdate","ColumnName_Ar":"transdate","ColumnName_En":"transdate","ColumnOrdinal":4,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"Column lumnOrdinal":3,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"Total","ColumnName_Ar":"Total","ColumnName_En":"Total","ColumnOrdinal":4,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontS
+          "ColumnName": "code",
+          "ColumnName_Ar": "code",
+          "ColumnName_En": "code",
+          "ColumnOrdinal": 3,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "transdate",
+          "ColumnName_Ar": "transdate",
+          "ColumnName_En": "transdate"
+          olumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"notes","ColumnName_Ar":"notes","ColumnName_En":"notes","ColumnOrdinal":7,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":2036,"columns":[{"ColumnNa ":0,"
+          ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"name","ColumnName_Ar":"name","ColumnName_En":"name","ColumnOrdinal":2,"ColumnWidth":250,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"code","ColumnName mnOrdinal":1,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":2045,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":4,"ColumnWidth":0,"ColumnType":0,"ColumnColor":8
+          olumnOrdinal":3,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":2049,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":5,"ColumnWidth":50,"ColumnType":0,"ColumnCol me_En":"transdate","ColumnOrdinal":4,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"notes","ColumnName_Ar":"notes","ColumnName_En":"notes","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnC
+          ame_Ar":"customername","ColumnName_En":"customername","ColumnOrdinal":1,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":2060,"columns":[{"ColumnName":"headerid","ColumnName_Ar":"headerid","ColumnName_En tBold":false},{"ColumnName":"name_ar","ColumnName_Ar":"name_ar","ColumnName_En":"name_ar","ColumnOrdinal":2,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_E
+          nColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"Barcode","ColumnName_Ar":"itembarcode","ColumnName_En":"itembarcode","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnNa
+          yname_ar","ColumnName_En":"assemblyname_ar","ColumnOrdinal":3,"ColumnWidth":150,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"customername","ColumnName_Ar":"customername","ColumnName_En":"customername","ColumnOrdi: 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "customerid",
+          "ColumnName_Ar": "customerid",
+          "ColumnName_En": "customerid",
+          "ColumnOrdinal": 2,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "n
+          th":0,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":1,"ColumnWidth":144,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false} umnOrdinal":1,"ColumnWidth":150,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":2222,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor
+          e":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":2,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"transdate","ColumnName_Ar":"transdate","ColumnName_En":"transdate","ColumnOr lumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"carid","ColumnName_Ar":"carid","ColumnName_En":"carid","ColumnOrdinal":10,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"Colu
+          pdatedatetime","ColumnOrdinal":0,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":2235,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":6,"ColumnWidth":50,"ColumnTyp umnName":"TransDate","ColumnName_Ar":"TransDate","ColumnName_En":"TransDate","ColumnOrdinal":5,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"SalesRepId","ColumnName_Ar":"SalesRepId","ColumnName_E
+          olumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"InsertUserID","ColumnName_Ar":"InsertUserID","ColumnName_En":"InsertUserID","ColumnOrdinal":16,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName" umnName":"prheaderid","ColumnName_Ar":"prheaderid","ColumnName_En":"prheaderid","ColumnOrdinal":8,"ColumnWidth":64,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"issuedate","ColumnName_Ar":"issuedate","ColumnName_E
+          "receiptno",
+          "ColumnOrdinal": 3,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "transdate",
+          "ColumnName_Ar": "transdate",
+          "ColumnName_En": "transdate",
+          "ColumnOrdinal": 2,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "Co r":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"transval","ColumnName_Ar":"transval","ColumnName_En":"transval","ColumnOrdinal":7,"ColumnWidth":41,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"sales
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "duedate",
+          "ColumnName_Ar": "duedate",
+          "ColumnName_En": "duedate",
+          "ColumnOrdinal": 10,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "checkno",
+          "ColumnName_Ar": "check
+          Name":"headerid","ColumnName_Ar":"headerid","ColumnName_En":"headerid","ColumnOrdinal":4,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"receiptno","ColumnName_Ar":"receiptno","ColumnName_En":"recei ar","ColumnOrdinal":5,"ColumnWidth":108,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"bankname_ar","ColumnName_Ar":"bankname_ar","ColumnName_En":"bankname_ar","ColumnOrdinal":4,"ColumnWidth":51,"ColumnType":0,"Col
+          lumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":2,"ColumnWidth":100,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"ColumnName":"name_ar" lumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"Code","ColumnName_Ar":"Code","ColumnName_En":"Code","ColumnOrdinal":4,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"Column
+          ":" status","ColumnName_En":"status","ColumnOrdinal":1,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":2835,"columns":[{"ColumnName":"serial","ColumnName_Ar":"سيريال","ColumnName_En":"serial","ColumnOrdi
+          olor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":2,"ColumnWidth":50,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"ColumnName":"name_en","Colu mnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":2846,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize"
+          rname","ColumnOrdinal":6,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"packageprice","ColumnName_Ar":"packageprice","ColumnName_En":"packageprice","ColumnOrdinal":5,"ColumnWidth":50,"ColumnType":0 se
+        },
+        {
+          "ColumnName": "contractid",
+          "ColumnName_Ar": "contractid",
+          "ColumnName_En": "contractid",
+          "ColumnOrdinal": 9,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "contractfromdate",
+          "ColumnName_Ar": "contract
+          mnOrdinal":2,"ColumnWidth":100,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"ColumnName":"name_ar","ColumnName_Ar":"name_ar","ColumnName_En":"name_ar","ColumnOrdinal":1,"ColumnWidth":250,"ColumnType":0,"ColumnColor":8,"ColumnF ame_En":"Description","ColumnOrdinal":5,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"CustomerName","ColumnName_Ar":"العميل","ColumnName_En":"Customer","ColumnOrdinal":6,"ColumnWidth":100,"Column
+          tBold":false},{"ColumnName":"SupplierId","ColumnName_Ar":"SupplierId","ColumnName_En":"SupplierId","ColumnOrdinal":7,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"SupplierName","ColumnName_Ar":"الم mnName_En":"NetCash","ColumnOrdinal":8,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"ReceivedCash","ColumnName_Ar":"ReceivedCash","ColumnName_En":"ReceivedCash","ColumnOrdinal":9,"ColumnWidth":10
+          r":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"suppliername","ColumnName_Ar":"suppliername","ColumnName_En":"suppliername","ColumnOrdinal":6,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"Column ription","ColumnOrdinal":5,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"CustomerName","ColumnName_Ar":"العميل","ColumnName_En":"Customer","ColumnOrdinal":6,"ColumnWidth":100,"ColumnType":0,"Colu
+          olumnName":"suppliername","ColumnName_Ar":"suppliername","ColumnName_En":"suppliername","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"transdate","ColumnName_Ar":"transdate","Colu ntSize":0,"ColumnFontBold":false},{"ColumnName":"name_ar","ColumnName_Ar":"name_ar","ColumnName_En":"name_ar","ColumnOrdinal":1,"ColumnWidth":250,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false}]},{"LOVID":3107,"columns":[{"ColumnN,
+          "ColumnColor": 8,
+          "ColumnFontSize": 0,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "code",
+          "ColumnName_Ar": "code",
+          "ColumnName_En": "code",
+          "ColumnOrdinal": 2,
+          "ColumnWidth": 150,
+          "ColumnType": 0,
+          "ColumnColor": 8,
+          "ColumnFontSize": 0,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "name
+          mnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":3116,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":3,"ColumnWidth":0,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"Colu olumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"name_AR","ColumnName_Ar":"name_AR","ColumnName_En":"Name","ColumnOrdinal":0,"ColumnWidth":300,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]}
+          dth":150,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"ColumnName":"totime","ColumnName_Ar":"totime","ColumnName_En":"totime","ColumnOrdinal":1,"ColumnWidth":150,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBol inal":1,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"ReceiptNo","ColumnName_Ar":"ReceiptNo","ColumnName_En":"ReceiptNo","ColumnOrdinal":2,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFo
+          {
+            "ColumnName": "TransVal",
+            "ColumnName_Ar": "القيمة",
+            "ColumnName_En": "Value",
+            "ColumnOrdinal": 4,
+            "ColumnWidth": 100,
+            "ColumnType": 0,
+            "ColumnColor": 0,
+            "ColumnFontSize": 8,
+            "ColumnFontBold": false
+          },
+          {
+            "ColumnName": "TransNotes",
+            "ColumnName_Ar": "البيان",
+            "ColumnName_En": "Des
+            nColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"CustomerName","ColumnName_Ar":"العميل","ColumnName_En":"Customer","ColumnOrdinal":6,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName erId","ColumnOrdinal":7,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"PrTransType","ColumnName_Ar":"PrTransType","ColumnName_En":"PrTransType","ColumnOrdinal":8,"ColumnWidth":0,"ColumnType":0,"Colu
+            se
+          },
+          {
+            "ColumnName": "SupplierId",
+            "ColumnName_Ar": "SupplierId",
+            "ColumnName_En": "SupplierId",
+            "ColumnOrdinal": 9,
+            "ColumnWidth": 100,
+            "ColumnType": 0,
+            "ColumnColor": 0,
+            "ColumnFontSize": 8,
+            "ColumnFontBold": false
+          },
+          {
+            "ColumnName": "PrTransType",
+            "ColumnName_Ar": "PrTransType"
+            lumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"TransNotes","ColumnName_Ar":"TransNotes","ColumnName_En":"TransNotes","ColumnOrdinal":9,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBol olumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":3212,"columns":[{"ColumnName":"ID","ColumnName_Ar":"ID","ColumnName_En":"ID","ColumnOrdinal":1,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"C,
+            "ColumnName_Ar": "ID",
+            "ColumnName_En": "ID",
+            "ColumnOrdinal": 1,
+            "ColumnWidth": 0,
+            "ColumnType": 0,
+            "ColumnColor": 0,
+            "ColumnFontSize": 8,
+            "ColumnFontBold": false
+          },
+          {
+            "ColumnName": "ReceiptNo",
+            "ColumnName_Ar": "ReceiptNo",
+            "ColumnName_En": "ReceiptNo",
+            "ColumnOrdinal": 2,
+            "Colu or":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"ReceiptNo","ColumnName_Ar":"ReceiptNo","ColumnName_En":"ReceiptNo","ColumnOrdinal":2,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"
+            rCode","ColumnOrdinal":2,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"CustomerName","ColumnName_Ar":"CustomerName","ColumnName_En":"CustomerName","ColumnOrdinal":3,"ColumnWidth":100,"ColumnType" mnFontBold":false},{"ColumnName":"DueDateView","ColumnName_Ar":"DueDateView","ColumnName_En":"DueDateView","ColumnOrdinal":13,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"DueDate","ColumnName_Ar
+            _Ar":"id","ColumnName_En":"id","ColumnOrdinal":18,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"receiptno","ColumnName_Ar":"receiptno","ColumnName_En":"receiptno","ColumnOrdinal":17,"ColumnWidth": olumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"cashboxecode","ColumnName_Ar":"cashboxecode","ColumnName_En":"cashboxecode","ColumnOrdinal":7,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"
+            umnName_Ar":"name_en","ColumnName_En":"name_en","ColumnOrdinal":6,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"firstpremiumdate","ColumnName_Ar":"firstpremiumdate","ColumnName_En":"firstpremiumda tSize":8,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":14,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"transdate","ColumnName_Ar":"tra
+            olumnOrdinal":4,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"updateuserid","ColumnName_Ar":"updateuserid","ColumnName_En":"updateuserid","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnC e
+          },
+          {
+            "ColumnName": "Code",
+            "ColumnName_Ar": "Code",
+            "ColumnName_En": "Code",
+            "ColumnOrdinal": 2,
+            "ColumnWidth": 100,
+            "ColumnType": 0,
+            "ColumnColor": 0,
+            "ColumnFontSize": 8,
+            "ColumnFontBold": false
+          },
+          {
+            "ColumnName": "Name_ar",
+            "ColumnName_Ar": "Name_ar",
+            "ColumnName_En": "Name_ar",
+            se
+          }
+      ]
+    },
+    {
+      "LOVID": 4003,
+      "columns": [
+        {
+          "ColumnName": "id",
+          "ColumnName_Ar": "ID",
+          "ColumnName_En": "ID",
+          "ColumnOrdinal": 1,
+          "ColumnWidth": 0,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "name_AR",
+          "ColumnName_Ar": "الاسم",
+          "ColumnN ntBold":false},{"ColumnName":"name_ar","ColumnName_Ar":"name_ar","ColumnName_En":"name_ar","ColumnOrdinal":1,"ColumnWidth":200,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":4015,"columns":[{"ColumnName":"id","ColumnNa
+          olumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"name_ar","ColumnName_Ar":"name_ar","ColumnName_En":"name_ar","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false} ":"
+          id","ColumnOrdinal":4,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnF lumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":-1,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":-1,"ColumnWidth":50,"Col
+          se
+        },
+        {
+          "ColumnName": "nocar",
+          "ColumnName_Ar": "nocar",
+          "ColumnName_En": "nocar",
+          "ColumnOrdinal": 2,
+          "ColumnWidth": 70,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "itemid",
+          "ColumnName_Ar": "itemid",
+          "ColumnName_En": "itemid",
+          umnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":4117,"columns":[{"ColumnName":"headerid","ColumnName_Ar":"headerid","ColumnName_En":"headerid","ColumnOrdinal":4,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFon sdate","ColumnName_En":"suppliernametransdate","ColumnOrdinal":1,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":4123,"columns":[{"ColumnName":"headerid","ColumnName_Ar":"headerid","ColumnName_En":"head
+          olumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"Column ":"
+          id","ColumnOrdinal":2,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"name_ar","ColumnName_Ar":"name_ar","ColumnName_En":"name_ar","ColumnOrdinal":1,"ColumnWidth":150,"ColumnType":0,"ColumnColor" lumns":[{"ColumnName":"id","ColumnName_Ar":"ID","ColumnName_En":"ID","ColumnOrdinal":1,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"name_AR","ColumnName_Ar":"الصنف","ColumnName_En":"Item","ColumnO
+          lumnName":"ItemBarCode","ColumnName_Ar":"الباركود","ColumnName_En":"ItemBarCode","ColumnOrdinal":4,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"PackagePrice","ColumnName_Ar":"سعر الجمله","Column
+          r":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"PackagePrice","ColumnName_Ar":"السعر","ColumnName_En":"Price","ColumnOrdinal":2,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"Packag olumnWidth":0,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":2,"ColumnWidth":60,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold"
+          ge","ColumnName_En":"package","ColumnOrdinal":0,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"Current_storename","ColumnName_Ar":"Current_storename","ColumnName_En":"Current_storename","ColumnOrdi lumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"color","ColumnName_Ar":"color","ColumnName_En":"color","ColumnOrdinal":2,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"Col
+          ckage","ColumnOrdinal":0,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"Current_storename","ColumnName_Ar":"Current_storename","ColumnName_En":"Current_storename","ColumnOrdinal":0,"ColumnWidth":10 lumnFontBold":false},{"ColumnName":"storename","ColumnName_Ar":"storename","ColumnName_En":"storename","ColumnOrdinal":0,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":4227,"columns":[{"ColumnName":"i
+          olumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"regionname","ColumnName_Ar":"regionname","ColumnName_En":"regionname","ColumnOrdinal":2,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBol mnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":-1,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"name_ar","ColumnName_Ar":"name_ar","ColumnName_En":"name_ar","ColumnOrdinal"
+          ColumnName":"packageprice","ColumnName_Ar":"packageprice","ColumnName_En":"packageprice","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"package","ColumnName_Ar":"package","ColumnN,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "total",
+          "ColumnName_Ar": "total",
+          "ColumnName_En": "total",
+          "ColumnOrdinal": 4,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "ne
+          "code",
+          "ColumnName_En": "code",
+          "ColumnOrdinal": 5,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "pkg1price1",
+          "ColumnName_Ar": "pkg1price1",
+          "ColumnName_En": "pkg1price1",
+          "ColumnOrdinal": 4,
+          "ColumnWidth": ype":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":5,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":
+          e":"color","ColumnName_Ar":"color","ColumnName_En":"color","ColumnOrdinal":5,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":4,"Co or":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":4,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"itembarcode","Co
+          "ColumnOrdinal": 3,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "code",
+          "ColumnName_Ar": "code",
+          "ColumnName_En": "code",
+          "ColumnOrdinal": 2,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSiz mnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"servicescheduleperiod","ColumnName_Ar":"servicescheduleperiod","ColumnName_En":"servicescheduleperiod","ColumnOrdinal":4,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8
+          "customername",
+          "ColumnName_Ar": "customername",
+          "ColumnName_En": "customername",
+          "ColumnOrdinal": 1,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        }
+      ]
+    },
+    {
+      "LOVID": 13005,
+      "columns": [
+        {
+          "ColumnName": "itemid",
+          "ColumnName_Ar": "it
+          lumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":20005,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{" olumnOrdinal":2,"ColumnWidth":170,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":30115,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":0,"ColumnWidth":90,"ColumnType":0,"ColumnCo
+          ame_Ar":"id","ColumnName_En":"id","ColumnOrdinal":2,"ColumnWidth":0,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":0,"ColumnWidth":50,"ColumnType" e_Ar":"code","ColumnName_En":"code","ColumnOrdinal":2,"ColumnWidth":50,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false}]},{"LOVID":60007,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":3,"Col
+          ":" address_ar","ColumnName_Ar":"address_ar","ColumnName_En":"address_ar","ColumnOrdinal":2,"ColumnWidth":273,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"ColumnName":"status","ColumnName_Ar":"status","ColumnName_En":"status",
+          olumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":60014,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":-1,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}, e_Ar":"headerid","ColumnName_En":"headerid","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"actualcontractcode","ColumnName_Ar":"actualcontractcode","ColumnName_En":"actualcontract
+          inal":5,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":4,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"Colu
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "actualcontractcode",
+          "ColumnName_Ar": "actualcontractcode",
+          "ColumnName_En": "actualcontractcode",
+          "ColumnOrdinal": 1,
+          "ColumnWidth": 106,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": f
+          me_Ar":"nettotal","ColumnName_En":"nettotal","ColumnOrdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"status","ColumnName_Ar":"status","ColumnName_En":"status","ColumnOrdinal":2,"ColumnWidt olor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":60024,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":6,"ColumnWidth":0,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"Column
+          lumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"customername_ar","ColumnName_Ar":"customername_ar","ColumnName_En":"customername_ar","ColumnOrdinal":1,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"C ontSize":8,"ColumnFontBold":false},{"ColumnName":"currencyid","ColumnName_Ar":"currencyid","ColumnName_En":"currencyid","ColumnOrdinal":11,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"currencyrat
+          umnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":60027,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":8,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSiz,
+          {
+            "ColumnName": "transdate",
+            "ColumnName_Ar": "transdate",
+            "ColumnName_En": "transdate",
+            "ColumnOrdinal": 38,
+            "ColumnWidth": 50,
+            "ColumnType": 0,
+            "ColumnColor": 0,
+            "ColumnFontSize": 8,
+            "ColumnFontBold": false
+          },
+          {
+            "ColumnName": "branchid",
+            "ColumnName_Ar": "branchid",
+            "ColumnName idth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"sendercode","ColumnName_Ar":"sendercode","ColumnName_En":"sendercode","ColumnOrdinal":27,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"C
+            r":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"releaseid","ColumnName_Ar":"releaseid","ColumnName_En":"releaseid","ColumnOrdinal":17,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"r FontBold":false},{"ColumnName":"containertypecode","ColumnName_Ar":"containertypecode","ColumnName_En":"containertypecode","ColumnOrdinal":7,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"container
+            ":" customerid","ColumnName_Ar":"customerid","ColumnName_En":"customerid","ColumnOrdinal":5,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"customername_ar","ColumnName_Ar":"customername_ar","ColumnN
+            oregionname_ar","ColumnOrdinal":10,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"itemname_ar","ColumnName_Ar":"itemname_ar","ColumnName_En":"itemname_ar","ColumnOrdinal":9,"ColumnWidth":50,"Column h":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"code","ColumnName_Ar":"code","ColumnName_En":"code","ColumnOrdinal":9,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},
+            ame_Ar":"headerid","ColumnName_En":"headerid","ColumnOrdinal":8,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"transdate","ColumnName_Ar":"transdate","ColumnName_En":"transdate","ColumnOrdinal":7," r":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":60035,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":3,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnNam
+            rdinal":3,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"status","ColumnName_Ar":"status","ColumnName_En":"status","ColumnOrdinal":2,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize" {
+              "ColumnName": "status",
+              "ColumnName_Ar": "status",
+              "ColumnName_En": "status",
+              "ColumnOrdinal": 1,
+              "ColumnWidth": 50,
+              "ColumnType": 0,
+              "ColumnColor": 0,
+              "ColumnFontSize": 8,
+              "ColumnFontBold": false
+            }
+      ]
+    },
+    {
+      "LOVID": 60039,
+      "columns": [
+        {
+          "ColumnName": "id",
+          "ColumnName_Ar": "id",
+          "Colum ColumnOrdinal":6,"ColumnWidth":50,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"receivertext","ColumnName_Ar":"receivertext","ColumnName_En":"receivertext","ColumnOrdinal":5,"ColumnWidth":50,"ColumnType":0,"Column
+          ld":false},{"ColumnName":"name_ar","ColumnName_Ar":"name_ar","ColumnName_En":"name_ar","ColumnOrdinal":1,"ColumnWidth":50,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false}]},{"LOVID":70003,"columns":[{"ColumnName":"id","ColumnName_A: 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "brandid",
+          "ColumnName_Ar": "brandid",
+          "ColumnName_En": "brandid",
+          "ColumnOrdinal": 8,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": inal":0,"ColumnWidth":100,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false}]},{"LOVID":70014,"columns":[{"ColumnName":"Id","ColumnName_Ar":"Id","ColumnName_En":"Id","ColumnOrdinal":0,"ColumnWidth":0,"ColumnType":0,"ColumnColor":0,"C
+          iptno","ColumnName_En":"receiptno","ColumnOrdinal":2,"ColumnWidth":150,"ColumnType":0,"ColumnColor":0,"ColumnFontSize":8,"ColumnFontBold":false},{"ColumnName":"transdate","ColumnName_Ar":"transdate","ColumnName_En":"transdate","ColumnOrdinal":1,"ColumnWidt
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "transdate",
+          "ColumnName_Ar": "transdate",
+          "ColumnName_En": "transdate",
+          "ColumnOrdinal": 4,
+          "ColumnWidth": 50,
+          "ColumnType": 0,
+          "ColumnColor": 0,
+          "ColumnFontSize": 8,
+          "ColumnFontBold": false
+        },
+        {
+          "ColumnName": "notes",
+          {
+            "ColumnName": "moduleid",
+            "ColumnName_Ar": "moduleid",
+            "ColumnName_En": "moduleid",
+            "ColumnOrdinal": 3,
+            "ColumnWidth": 50,
+            "ColumnType": 0,
+            "ColumnColor": 0,
+            "ColumnFontSize": 8,
+            "ColumnFontBold": false
+          },
+          {
+            "ColumnName": "defcaption_ar",
+            "ColumnName_Ar": "defcaption_ar",
+            "Colum ":8,"
+            ColumnFontSize":0,"ColumnFontBold":false}]},{"LOVID":152002,"columns":[{"ColumnName":"id","ColumnName_Ar":"id","ColumnName_En":"id","ColumnOrdinal":3,"ColumnWidth":0,"ColumnType":0,"ColumnColor":8,"ColumnFontSize":0,"ColumnFontBold":false},{"ColumnNam

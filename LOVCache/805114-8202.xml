@@ -1,0 +1,207 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <LOV>
+    <id>18563</id>
+    <chassisno>VR3F3EGP3RY503759</chassisno>
+    <itemgroupname>بيجو </itemgroupname>
+    <name_ar>PGT 408 - GTLINE 2024</name_ar>
+    <itemsubgroupname>بيجو 408</itemsubgroupname>
+    <color>ازرق </color>
+    <code>18339</code>
+    <itembarcode>18339</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18564</id>
+    <chassisno>VF3M45GYVRS010561</chassisno>
+    <itemgroupname>بيجو </itemgroupname>
+    <name_ar>PGT 5008 - GTLINE (RED)2024</name_ar>
+    <itemsubgroupname>بيجو 5008</itemsubgroupname>
+    <color>ابيض </color>
+    <code>18340</code>
+    <itembarcode>18340</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18565</id>
+    <chassisno>VR3F3EGZ3RY501048</chassisno>
+    <itemgroupname>بيجو </itemgroupname>
+    <name_ar>PGT 508 - GT PACK 2024</name_ar>
+    <itemsubgroupname>بيجو 508 </itemsubgroupname>
+    <color>احمر </color>
+    <code>18341</code>
+    <itembarcode>18341</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18566</id>
+    <chassisno>W0VZ45GY4R6005349</chassisno>
+    <itemgroupname>أوبل</itemgroupname>
+    <name_ar>OPEL GRAND LAND TLPLUS </name_ar>
+    <itemsubgroupname>جراند لاند</itemsubgroupname>
+    <color>ابيض </color>
+    <code>18342</code>
+    <itembarcode>18342</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18567</id>
+    <chassisno>VXKUPHNLGR4025841</chassisno>
+    <itemgroupname>أوبل</itemgroupname>
+    <name_ar>OPEL NEW CORSA 2024</name_ar>
+    <itemsubgroupname>كورسا</itemsubgroupname>
+    <color>فضي </color>
+    <code>18343</code>
+    <itembarcode>18343</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18568</id>
+    <chassisno>VXKUPHNLGR4025709</chassisno>
+    <itemgroupname>أوبل</itemgroupname>
+    <name_ar>OPEL NEW CORSA 2024</name_ar>
+    <itemsubgroupname>كورسا</itemsubgroupname>
+    <color>جراي </color>
+    <code>18344</code>
+    <itembarcode>18344</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18569</id>
+    <chassisno>VXKYPHNLGR4014460</chassisno>
+    <itemgroupname>أوبل</itemgroupname>
+    <name_ar>OPEL NEW CORS 2024</name_ar>
+    <itemsubgroupname>كورسا</itemsubgroupname>
+    <color>احمر</color>
+    <code>18345</code>
+    <itembarcode>18345</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18570</id>
+    <chassisno>VXKUPHNLGR4014796</chassisno>
+    <itemgroupname>أوبل</itemgroupname>
+    <name_ar>OPEL NEW CORSA 2024</name_ar>
+    <itemsubgroupname>كورسا</itemsubgroupname>
+    <color>فضي </color>
+    <code>18346</code>
+    <itembarcode>18346</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18571</id>
+    <chassisno>W0V7H9EDXR4012420</chassisno>
+    <itemgroupname>أوبل</itemgroupname>
+    <name_ar>OPEL CROSS LAND 2024</name_ar>
+    <itemsubgroupname>كروس لاند </itemsubgroupname>
+    <color>فضي </color>
+    <code>18347</code>
+    <itembarcode>18347</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18572</id>
+    <chassisno>LSJW74U60RZ125762</chassisno>
+    <itemgroupname>معطرات </itemgroupname>
+    <name_ar>MG ZS COMFORT 2024</name_ar>
+    <itemsubgroupname>ZS</itemsubgroupname>
+    <color>ابيض </color>
+    <code>18348</code>
+    <itembarcode>18348</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18573</id>
+    <chassisno>LSJW74U64RZ126848</chassisno>
+    <itemgroupname>معطرات </itemgroupname>
+    <name_ar>MG ZS COMFORT 2024 </name_ar>
+    <itemsubgroupname>ZS</itemsubgroupname>
+    <color>ابيض </color>
+    <code>18349</code>
+    <itembarcode>18349</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18574</id>
+    <chassisno>VR3F3EGP3RY503700</chassisno>
+    <itemgroupname>بيجو </itemgroupname>
+    <name_ar>PGT 408 - GT LINE 2024</name_ar>
+    <itemsubgroupname>بيجو 408</itemsubgroupname>
+    <color>رمادي </color>
+    <code>18350</code>
+    <itembarcode>18350</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18575</id>
+    <chassisno>MPATFR54JSE159767</chassisno>
+    <itemgroupname>شيفرولية</itemgroupname>
+    <name_ar>شيفرولية دبابة باور 2025</name_ar>
+    <itemsubgroupname>دبابه باور</itemsubgroupname>
+    <color>اخضر</color>
+    <code>18351</code>
+    <itembarcode>18351</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18576</id>
+    <chassisno>MPATFR54JSE160698</chassisno>
+    <itemgroupname>شيفرولية</itemgroupname>
+    <name_ar>شيفرواية دبابة باور 2025</name_ar>
+    <itemsubgroupname>دبابه باور</itemsubgroupname>
+    <color>ابيض</color>
+    <code>18352</code>
+    <itembarcode>18352</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18577</id>
+    <chassisno>MPATFR54JSE160663</chassisno>
+    <itemgroupname>شيفرولية</itemgroupname>
+    <name_ar>شيفرولية دبابة باور 2025</name_ar>
+    <itemsubgroupname>دبابه باور</itemsubgroupname>
+    <color>ابيض</color>
+    <code>18353</code>
+    <itembarcode>18353</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18578</id>
+    <chassisno>010567</chassisno>
+    <itemgroupname>فولكس</itemgroupname>
+    <name_ar>فولكس فاجن تيجوان موديل 2024 R-Line</name_ar>
+    <itemsubgroupname>فولكس فاجن تيجوان</itemsubgroupname>
+    <color>فيرانى</color>
+    <code>18354</code>
+    <itembarcode>18354</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+  <LOV>
+    <id>18579</id>
+    <chassisno>15865</chassisno>
+    <itemgroupname>مرسيدس</itemgroupname>
+    <name_ar>مرسيدس GLE450 موديل 2022 مستعمله</name_ar>
+    <itemsubgroupname>GLE450</itemsubgroupname>
+    <color>فيرانى.</color>
+    <code>18355</code>
+    <itembarcode>18355</itembarcode>
+    <package>1</package>
+    <branchid>100</branchid>
+  </LOV>
+</NewDataSet>

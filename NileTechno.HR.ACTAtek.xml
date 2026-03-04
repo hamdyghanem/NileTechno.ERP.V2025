@@ -1,0 +1,3113 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NileTechno.HR.ACTAtek
+</name>
+</assembly>
+<members>
+<member name="T:NileTechno.HR.ACTAtek.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.DataSet1.UsersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.DataSet1.UsersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.DataSet1.UsersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.DataSet2.UsersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.DataSet2.UsersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.DataSet2.UsersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.#ctor">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.logCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.encryptLogCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.encryptLogMultipleCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.syncCompleted">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.log(System.String,NileTechno.HR.ACTAtek.ACTAServiceAgent.Log)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.Beginlog(System.String,NileTechno.HR.ACTAtek.ACTAServiceAgent.Log,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.Endlog(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.logAsync(System.String,NileTechno.HR.ACTAtek.ACTAServiceAgent.Log)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.logAsync(System.String,NileTechno.HR.ACTAtek.ACTAServiceAgent.Log,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.encryptLog(System.Byte[],NileTechno.HR.ACTAtek.ACTAServiceAgent.PhotoPart)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.BeginencryptLog(System.Byte[],NileTechno.HR.ACTAtek.ACTAServiceAgent.PhotoPart,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.EndencryptLog(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.encryptLogAsync(System.Byte[],NileTechno.HR.ACTAtek.ACTAServiceAgent.PhotoPart)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.encryptLogAsync(System.Byte[],NileTechno.HR.ACTAtek.ACTAServiceAgent.PhotoPart,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.encryptLogMultiple(NileTechno.HR.ACTAtek.ACTAServiceAgent.eLog[])">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.BeginencryptLogMultiple(NileTechno.HR.ACTAtek.ACTAServiceAgent.eLog[],System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.EndencryptLogMultiple(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.encryptLogMultipleAsync(NileTechno.HR.ACTAtek.ACTAServiceAgent.eLog[])">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.encryptLogMultipleAsync(NileTechno.HR.ACTAtek.ACTAServiceAgent.eLog[],System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.sync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.Beginsync(System.String,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.Endsync(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.syncAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.syncAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAServiceAgent.ACTAtekAgent.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAServiceAgent.Log">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.Log.logID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.Log.userID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.Log.timestamp">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.Log.trigger">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.Log.terminalSN">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.Log.sender">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.Log.photoPart">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.UNKNOWN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.IN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.OUT">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F1">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F2">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F3">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F4">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F5">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F6">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F7">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F8">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F9">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F10">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.IDUNKNOWN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.REJECTED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.IDRESERVED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.RESETALL">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.RESETACC">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.RESETDEVICE">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.RESETPASSWORD">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.RESETDEFAULT">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.SYSTEMLOGIN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.ADMINLOGIN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.USERLOGIN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.NETWORKCHANGE">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.PATCHED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.BACKUPDB">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.RESTOREDB">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.SYSTEMRSVD">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.ENROLLUSER">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.REMOTEDOOROPEN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.REMOVEUSER">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.SUSPENDUSER">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.EDITEVENT">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.RESETADMINPW">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.ADMINRSVDIT">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F11">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F12">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F13">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F14">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F15">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F16">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F17">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F18">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F19">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F20">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F21">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F22">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F23">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F24">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F25">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F26">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F27">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F28">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F29">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F30">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F31">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F32">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F33">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F34">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F35">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F36">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F37">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F38">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F39">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.F40">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.SCHEDULEDOOROPEN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.SCHEDULEDOORCLOSE">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.SCHEDULEBELLON">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.DOORISOPENED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.DOORISCLOSED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.CASEISOPENED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAServiceAgent.eventType.CASEISCLOSED">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAServiceAgent.PhotoPart">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.PhotoPart.hasPhoto">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.PhotoPart.hasPhotoSpecified">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.PhotoPart.photoData">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAServiceAgent.eLog">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.eLog.encryptedLog">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.eLog.photo">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAServiceAgent.logCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAServiceAgent.logCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.logCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAServiceAgent.encryptLogCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAServiceAgent.encryptLogCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.encryptLogCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAServiceAgent.encryptLogMultipleCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAServiceAgent.encryptLogMultipleCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.encryptLogMultipleCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAServiceAgent.syncCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAServiceAgent.syncCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAServiceAgent.syncCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.#ctor">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.loginCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.logoutCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getRegisteredAgentsCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.pollLogCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getLogsCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addLogCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addUserCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getUsersCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateUserCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteUserCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getMyselfCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateMyselfCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.activateUserCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deactivateUserCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getUserMessageCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateUserMessageCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteUserMessageCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addDepartmentCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateDepartmentCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getDepartmentsCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteDepartmentCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addGroupCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getGroupsCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateGroupCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteGroupCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTriggersCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateTriggerCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.clearTriggerCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.openDoorCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.openRelayCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.closeRelayCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.registerAgentCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.unregisterAgentCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getAPIVersionCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTerminalStatusCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTerminalListCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.nopCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getLogPhotoCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.registerFPUserCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getFullLogsCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.resetLogCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getFpSecurityLevelCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setFpSecurityLevelCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getRelayDelayCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setRelayDelayCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getAutoInOutCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setAutoInOutCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getLogUnauthorizedEventCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setLogUnauthorizedEventCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setRelayOptionCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getRelayOptionCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setSNTPCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getSNTPCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setSNTPServerCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getSNTPServerCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTerminalDateTimeCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setTerminalDateTimeCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTimeZoneCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setTimeZoneCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getCaptureFingerprintCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.initCaptureFPCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.lockCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.unlockCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.systemBackupCompleted">
+<remarks/>
+</member>
+<member name="E:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.systemRestoreCompleted">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.login(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.Beginlogin(System.String,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.Endlogin(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.loginAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.loginAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.logout(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.Beginlogout(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.Endlogout(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.logoutAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.logoutAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getRegisteredAgents(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetRegisteredAgents(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetRegisteredAgents(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getRegisteredAgentsAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getRegisteredAgentsAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.pollLog(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginpollLog(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndpollLog(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.pollLogAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.pollLogAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getLogs(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetLogs(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetLogs(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getLogsAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getLogsAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addLog(System.Int64,System.DateTime,System.String,NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginaddLog(System.Int64,System.DateTime,System.String,NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndaddLog(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addLogAsync(System.Int64,System.DateTime,System.String,NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addLogAsync(System.Int64,System.DateTime,System.String,NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addUser(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.User)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginaddUser(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.User,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndaddUser(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addUserAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.User)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addUserAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.User,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getUsers(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getUsersCriteria)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetUsers(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getUsersCriteria,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetUsers(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getUsersAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getUsersCriteria)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getUsersAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getUsersCriteria,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateUser(System.Int64,System.String,NileTechno.HR.ACTAtek.ACTAtekWSDL.User)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginupdateUser(System.Int64,System.String,NileTechno.HR.ACTAtek.ACTAtekWSDL.User,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndupdateUser(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateUserAsync(System.Int64,System.String,NileTechno.HR.ACTAtek.ACTAtekWSDL.User)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateUserAsync(System.Int64,System.String,NileTechno.HR.ACTAtek.ACTAtekWSDL.User,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteUser(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegindeleteUser(System.Int64,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EnddeleteUser(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteUserAsync(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteUserAsync(System.Int64,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getMyself(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetMyself(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetMyself(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getMyselfAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getMyselfAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateMyself(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.User)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginupdateMyself(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.User,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndupdateMyself(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateMyselfAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.User)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateMyselfAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.User,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.activateUser(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginactivateUser(System.Int64,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndactivateUser(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.activateUserAsync(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.activateUserAsync(System.Int64,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deactivateUser(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegindeactivateUser(System.Int64,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EnddeactivateUser(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deactivateUserAsync(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deactivateUserAsync(System.Int64,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getUserMessage(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetUserMessage(System.Int64,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetUserMessage(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getUserMessageAsync(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getUserMessageAsync(System.Int64,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateUserMessage(System.Int64,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginupdateUserMessage(System.Int64,System.String,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndupdateUserMessage(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateUserMessageAsync(System.Int64,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateUserMessageAsync(System.Int64,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteUserMessage(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegindeleteUserMessage(System.Int64,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EnddeleteUserMessage(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteUserMessageAsync(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteUserMessageAsync(System.Int64,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addDepartment(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Department)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginaddDepartment(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Department,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndaddDepartment(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addDepartmentAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Department)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addDepartmentAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Department,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateDepartment(System.Int64,System.Int32,NileTechno.HR.ACTAtek.ACTAtekWSDL.Department)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginupdateDepartment(System.Int64,System.Int32,NileTechno.HR.ACTAtek.ACTAtekWSDL.Department,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndupdateDepartment(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateDepartmentAsync(System.Int64,System.Int32,NileTechno.HR.ACTAtek.ACTAtekWSDL.Department)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateDepartmentAsync(System.Int64,System.Int32,NileTechno.HR.ACTAtek.ACTAtekWSDL.Department,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getDepartments(System.Int64,System.Nullable{System.Int32},System.Boolean)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetDepartments(System.Int64,System.Nullable{System.Int32},System.Boolean,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetDepartments(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getDepartmentsAsync(System.Int64,System.Nullable{System.Int32},System.Boolean)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getDepartmentsAsync(System.Int64,System.Nullable{System.Int32},System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteDepartment(System.Int64,System.Int32)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegindeleteDepartment(System.Int64,System.Int32,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EnddeleteDepartment(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteDepartmentAsync(System.Int64,System.Int32)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteDepartmentAsync(System.Int64,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addGroup(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Group)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginaddGroup(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Group,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndaddGroup(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addGroupAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Group)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.addGroupAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Group,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getGroups(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getGroupsCriteria)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetGroups(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getGroupsCriteria,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetGroups(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getGroupsAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getGroupsCriteria)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getGroupsAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getGroupsCriteria,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateGroup(System.Int64,System.Int32,NileTechno.HR.ACTAtek.ACTAtekWSDL.Group)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginupdateGroup(System.Int64,System.Int32,NileTechno.HR.ACTAtek.ACTAtekWSDL.Group,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndupdateGroup(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateGroupAsync(System.Int64,System.Int32,NileTechno.HR.ACTAtek.ACTAtekWSDL.Group)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateGroupAsync(System.Int64,System.Int32,NileTechno.HR.ACTAtek.ACTAtekWSDL.Group,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteGroup(System.Int64,System.Int32)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegindeleteGroup(System.Int64,System.Int32,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EnddeleteGroup(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteGroupAsync(System.Int64,System.Int32)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.deleteGroupAsync(System.Int64,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTriggers(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getTriggersCriteria)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetTriggers(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getTriggersCriteria,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetTriggers(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTriggersAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getTriggersCriteria)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTriggersAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getTriggersCriteria,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateTrigger(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Trigger)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginupdateTrigger(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Trigger,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndupdateTrigger(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateTriggerAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Trigger)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.updateTriggerAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.Trigger,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.clearTrigger(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginclearTrigger(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndclearTrigger(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.clearTriggerAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.clearTriggerAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.openDoor(System.Int64,System.Int32)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginopenDoor(System.Int64,System.Int32,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndopenDoor(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.openDoorAsync(System.Int64,System.Int32)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.openDoorAsync(System.Int64,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.openRelay(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginopenRelay(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndopenRelay(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.openRelayAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.openRelayAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.closeRelay(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegincloseRelay(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndcloseRelay(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.closeRelayAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.closeRelayAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.registerAgent(System.Int64,System.String,System.Int32,System.String,System.String,System.String,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginregisterAgent(System.Int64,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndregisterAgent(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.registerAgentAsync(System.Int64,System.String,System.Int32,System.String,System.String,System.String,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.registerAgentAsync(System.Int64,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.unregisterAgent(System.Int64,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginunregisterAgent(System.Int64,System.String,System.Int32,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndunregisterAgent(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.unregisterAgentAsync(System.Int64,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.unregisterAgentAsync(System.Int64,System.String,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getAPIVersion">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetAPIVersion(System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetAPIVersion(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getAPIVersionAsync">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getAPIVersionAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTerminalStatus(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetTerminalStatus(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetTerminalStatus(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTerminalStatusAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTerminalStatusAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTerminalList(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetTerminalList(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetTerminalList(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTerminalListAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTerminalListAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.nop(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.Beginnop(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.Endnop(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.nopAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.nopAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getLogPhoto(System.Int64,System.String,System.DateTime)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetLogPhoto(System.Int64,System.String,System.DateTime,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetLogPhoto(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getLogPhotoAsync(System.Int64,System.String,System.DateTime)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getLogPhotoAsync(System.Int64,System.String,System.DateTime,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.registerFPUser(System.Int64,System.String,System.String@)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginregisterFPUser(System.Int64,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndregisterFPUser(System.IAsyncResult,System.String@)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.registerFPUserAsync(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.registerFPUserAsync(System.Int64,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getFullLogs(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria,System.Nullable{System.Int32},System.Boolean)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetFullLogs(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria,System.Nullable{System.Int32},System.Boolean,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetFullLogs(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getFullLogsAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria,System.Nullable{System.Int32},System.Boolean)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getFullLogsAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria,System.Nullable{System.Int32},System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.resetLog(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginresetLog(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndresetLog(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.resetLogAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.resetLogAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getFpSecurityLevel(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetFpSecurityLevel(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetFpSecurityLevel(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getFpSecurityLevelAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getFpSecurityLevelAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setFpSecurityLevel(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.FingerprintSecurityLevel)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginsetFpSecurityLevel(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.FingerprintSecurityLevel,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndsetFpSecurityLevel(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setFpSecurityLevelAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.FingerprintSecurityLevel)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setFpSecurityLevelAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.FingerprintSecurityLevel,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getRelayDelay(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetRelayDelay(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetRelayDelay(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getRelayDelayAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getRelayDelayAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setRelayDelay(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,System.Int32)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginsetRelayDelay(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,System.Int32,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndsetRelayDelay(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setRelayDelayAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,System.Int32)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setRelayDelayAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getAutoInOut(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetAutoInOut(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetAutoInOut(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getAutoInOutAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getAutoInOutAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setAutoInOut(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.AutoInOutOption)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginsetAutoInOut(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.AutoInOutOption,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndsetAutoInOut(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setAutoInOutAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.AutoInOutOption)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setAutoInOutAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.AutoInOutOption,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getLogUnauthorizedEvent(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetLogUnauthorizedEvent(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetLogUnauthorizedEvent(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getLogUnauthorizedEventAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getLogUnauthorizedEventAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setLogUnauthorizedEvent(System.Int64,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginsetLogUnauthorizedEvent(System.Int64,System.Boolean,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndsetLogUnauthorizedEvent(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setLogUnauthorizedEventAsync(System.Int64,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setLogUnauthorizedEventAsync(System.Int64,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setRelayOption(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayOption)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginsetRelayOption(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayOption,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndsetRelayOption(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setRelayOptionAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayOption)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setRelayOptionAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayOption,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getRelayOption(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayOption@,System.Boolean@)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetRelayOption(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetRelayOption(System.IAsyncResult,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayOption@,System.Boolean@)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getRelayOptionAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getRelayOptionAsync(System.Int64,NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setSNTP(System.Int64,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginsetSNTP(System.Int64,System.Boolean,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndsetSNTP(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setSNTPAsync(System.Int64,System.Boolean)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setSNTPAsync(System.Int64,System.Boolean,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getSNTP(System.Int64,System.Boolean@,System.Boolean@)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetSNTP(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetSNTP(System.IAsyncResult,System.Boolean@,System.Boolean@)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getSNTPAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getSNTPAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setSNTPServer(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginsetSNTPServer(System.Int64,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndsetSNTPServer(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setSNTPServerAsync(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setSNTPServerAsync(System.Int64,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getSNTPServer(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetSNTPServer(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetSNTPServer(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getSNTPServerAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getSNTPServerAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTerminalDateTime(System.Int64,System.Nullable{System.DateTime}@,System.Boolean@)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetTerminalDateTime(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetTerminalDateTime(System.IAsyncResult,System.Nullable{System.DateTime}@,System.Boolean@)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTerminalDateTimeAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTerminalDateTimeAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setTerminalDateTime(System.Int64,System.DateTime)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginsetTerminalDateTime(System.Int64,System.DateTime,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndsetTerminalDateTime(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setTerminalDateTimeAsync(System.Int64,System.DateTime)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setTerminalDateTimeAsync(System.Int64,System.DateTime,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTimeZone(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetTimeZone(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetTimeZone(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTimeZoneAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getTimeZoneAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setTimeZone(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginsetTimeZone(System.Int64,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndsetTimeZone(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setTimeZoneAsync(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.setTimeZoneAsync(System.Int64,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getCaptureFingerprint(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegingetCaptureFingerprint(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndgetCaptureFingerprint(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getCaptureFingerprintAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.getCaptureFingerprintAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.initCaptureFP(System.Int64,System.String@)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BegininitCaptureFP(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndinitCaptureFP(System.IAsyncResult,System.String@)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.initCaptureFPAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.initCaptureFPAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.lock(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.Beginlock(System.Int64,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.Endlock(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.lockAsync(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.lockAsync(System.Int64,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.unlock(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.Beginunlock(System.Int64,System.String,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.Endunlock(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.unlockAsync(System.Int64,System.String)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.unlockAsync(System.Int64,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.systemBackup(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginsystemBackup(System.Int64,System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndsystemBackup(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.systemBackupAsync(System.Int64)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.systemBackupAsync(System.Int64,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.systemRestore(System.Int64,System.Byte[])">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.BeginsystemRestore(System.Int64,System.Byte[],System.AsyncCallback,System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.EndsystemRestore(System.IAsyncResult)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.systemRestoreAsync(System.Int64,System.Byte[])">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.systemRestoreAsync(System.Int64,System.Byte[],System.Object)">
+<remarks/>
+</member>
+<member name="M:NileTechno.HR.ACTAtek.ACTAtekWSDL.ACTAtek.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent.port">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent.ip">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent.registrationTime">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent.registrationTimeSpecified">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent.lastUpdate">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent.lastUpdateSpecified">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent.lastCheck">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent.lastCheckSpecified">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent.lastCheckStatus">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent.active">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Agent.link">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.LogDetail">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.LogDetail.logID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.LogDetail.userID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.LogDetail.userName">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.LogDetail.departmentName">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.LogDetail.timestamp">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.LogDetail.trigger">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.LogDetail.terminalSN">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.LogDetail.terminalName">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.LogDetail.jpegPhoto">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.LogDetail.remark">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.UNKNOWN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.IN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.OUT">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F1">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F2">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F3">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F4">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F5">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F6">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F7">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F8">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F9">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F10">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.IDUNKNOWN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.REJECTED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.IDRESERVED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.RESETALL">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.RESETACC">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.RESETDEVICE">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.RESETPASSWORD">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.RESETDEFAULT">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.SYSTEMLOGIN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.ADMINLOGIN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.USERLOGIN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.NETWORKCHANGE">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.PATCHED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.BACKUPDB">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.RESTOREDB">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.SYSTEMRSVD">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.ENROLLUSER">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.REMOTEDOOROPEN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.REMOVEUSER">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.SUSPENDUSER">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.EDITEVENT">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.RESETADMINPW">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.ADMINRSVDIT">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F11">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F12">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F13">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F14">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F15">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F16">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F17">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F18">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F19">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F20">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F21">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F22">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F23">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F24">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F25">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F26">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F27">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F28">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F29">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F30">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F31">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F32">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F33">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F34">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F35">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F36">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F37">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F38">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F39">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.F40">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.SCHEDULEDOOROPEN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.SCHEDULEDOORCLOSE">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.SCHEDULEBELLON">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.DOORISOPENED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.DOORISCLOSED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.CASEISOPENED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.eventType.CASEISCLOSED">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.Terminal">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Terminal.terminalID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Terminal.terminalType">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Terminal.terminalName">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Terminal.terminalSN">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Terminal.terminalIP">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.TerminalStatus">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.TerminalStatus.modelNumber">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.TerminalStatus.serialNumber">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.TerminalStatus.firmwareVersion">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.TerminalStatus.FAMVersion">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.TerminalStatus.description">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.TerminalStatus.registeredUsers">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.TerminalStatus.maximumUsers">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.TerminalStatus.automatchUsers">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.TerminalStatus.maximumAutomatchUsers">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.TerminalStatus.currentStatus">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.Trigger">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Trigger.triggerType">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Trigger.triggerName">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Trigger.timeSpec">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.UNKNOWN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.IN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.OUT">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F1">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F2">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F3">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F4">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F5">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F6">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F7">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F8">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F9">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F10">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.IDUNKNOWN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.REJECTED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.IDRESERVED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.RESETALL">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.RESETACC">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.RESETDEVICE">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.RESETPASSWORD">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.RESETDEFAULT">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.SYSTEMLOGIN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.ADMINLOGIN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.USERLOGIN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.NETWORKCHANGE">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.PATCHED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.BACKUPDB">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.RESTOREDB">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.SYSTEMRSVD">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.ENROLLUSER">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.REMOTEDOOROPEN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.REMOVEUSER">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.SUSPENDUSER">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.EDITEVENT">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.RESETADMINPW">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.ADMINRSVDIT">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F11">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F12">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F13">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F14">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F15">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F16">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F17">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F18">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F19">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F20">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F21">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F22">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F23">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F24">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F25">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F26">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F27">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F28">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F29">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F30">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F31">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F32">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F33">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F34">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F35">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F36">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F37">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F38">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F39">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.F40">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.SCHEDULEDOOROPEN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.SCHEDULEDOORCLOSE">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.SCHEDULEBELLON">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.DOORISOPENED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.DOORISCLOSED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.CASEISOPENED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.CASEISCLOSED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.triggerType.TRIGGEREND">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.Timespec">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Timespec.weekday">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Timespec.timePattern">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.Weekday">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.Weekday.SUNDAY">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.Weekday.MONDAY">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.Weekday.TUESDAY">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.Weekday.WEDNESDAY">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.Weekday.THURSDAY">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.Weekday.FRIDAY">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.Weekday.SATURDAY">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.Weekday.HOLIDAY">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTriggersCriteria">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTriggersCriteria.triggerType">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTriggersCriteria.triggerTypeSpecified">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getGroupsCriteria">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getGroupsCriteria.groupID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getGroupsCriteria.groupIDSpecified">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getGroupsCriteria.departmentID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getGroupsCriteria.departmentIDSpecified">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.AccessRight">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.AccessRight.accessID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.AccessRight.terminalSN">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.AccessRight.quickAccess">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.AccessRight.timeSpec">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.Group">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Group.groupID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Group.groupName">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Group.departmentID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Group.accessRight">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.Department">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Department.departmentID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Department.departmentName">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Department.departmentDescription">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getUsersCriteria">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getUsersCriteria.userID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getUsersCriteria.partialUserID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getUsersCriteria.lastName">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getUsersCriteria.firstName">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getUsersCriteria.otherName">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getUsersCriteria.departmentID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getUsersCriteria.departmentIDSpecified">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.Fingerprint">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Fingerprint.image">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.Status">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Status.active">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Status.autoMatch">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Status.smartCard">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Status.fingerprint">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Status.password">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.User">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.User.userID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.User.lastName">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.User.firstName">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.User.otherName">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.User.adminLevel">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.User.usePassword">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.User.password">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.User.groupID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.User.departmentID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.User.fingerprintSecurityLevel">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.User.status">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.User.fingerprints">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.User.cardsn">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.AdminLevel">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.AdminLevel.PERSONALUSER">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.AdminLevel.NETWORKADMIN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.AdminLevel.USERADMIN">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.AdminLevel.SUPERADMIN">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.FingerprintSecurityLevel">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.FingerprintSecurityLevel.LOWEST">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.FingerprintSecurityLevel.LOW">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.FingerprintSecurityLevel.NORMAL">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.FingerprintSecurityLevel.HIGH">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.FingerprintSecurityLevel.HIGHEST">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.Log">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Log.logID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Log.userID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Log.timestamp">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Log.trigger">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.Log.terminalSN">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria.from">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria.fromSpecified">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria.to">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria.toSpecified">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria.employeeName">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria.employeeID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria.departmentID">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria.departmentIDSpecified">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria.trigger">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCriteria.triggerSpecified">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID.ONE">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID.TWO">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayID.ALL">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.AutoInOutOption">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.AutoInOutOption.DISABLE">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.AutoInOutOption.ENABLE">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.AutoInOutOption.SPECIAL">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.AutoInOutOption.REJECTREPEATEDLOGIN">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayOption">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayOption.RELAYDISABLE">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayOption.ACCESSGRANTED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayOption.ACCESSDENIED">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayOption.DOORBELL">
+<remarks/>
+</member>
+<member name="F:NileTechno.HR.ACTAtek.ACTAtekWSDL.RelayOption.BELLSCHEDULE">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.loginCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.loginCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.loginCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.logoutCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.logoutCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.logoutCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getRegisteredAgentsCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getRegisteredAgentsCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getRegisteredAgentsCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.pollLogCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.pollLogCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.pollLogCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogsCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.addLogCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.addLogCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.addLogCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.addUserCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.addUserCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.addUserCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getUsersCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getUsersCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getUsersCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateUserCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateUserCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateUserCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.deleteUserCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.deleteUserCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.deleteUserCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getMyselfCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getMyselfCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getMyselfCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateMyselfCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateMyselfCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateMyselfCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.activateUserCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.activateUserCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.activateUserCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.deactivateUserCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.deactivateUserCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.deactivateUserCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getUserMessageCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getUserMessageCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getUserMessageCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateUserMessageCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateUserMessageCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateUserMessageCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.deleteUserMessageCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.deleteUserMessageCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.deleteUserMessageCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.addDepartmentCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.addDepartmentCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.addDepartmentCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateDepartmentCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateDepartmentCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateDepartmentCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getDepartmentsCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getDepartmentsCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getDepartmentsCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.deleteDepartmentCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.deleteDepartmentCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.deleteDepartmentCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.addGroupCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.addGroupCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.addGroupCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getGroupsCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getGroupsCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getGroupsCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateGroupCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateGroupCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateGroupCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.deleteGroupCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.deleteGroupCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.deleteGroupCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTriggersCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTriggersCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTriggersCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateTriggerCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateTriggerCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.updateTriggerCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.clearTriggerCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.clearTriggerCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.clearTriggerCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.openDoorCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.openDoorCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.openDoorCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.openRelayCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.openRelayCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.openRelayCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.closeRelayCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.closeRelayCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.closeRelayCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.registerAgentCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.registerAgentCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.registerAgentCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.unregisterAgentCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.unregisterAgentCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.unregisterAgentCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getAPIVersionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getAPIVersionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getAPIVersionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTerminalStatusCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTerminalStatusCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTerminalStatusCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTerminalListCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTerminalListCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTerminalListCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.nopCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.nopCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.nopCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogPhotoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogPhotoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogPhotoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.registerFPUserCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.registerFPUserCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.registerFPUserCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.registerFPUserCompletedEventArgs.status">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getFullLogsCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getFullLogsCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getFullLogsCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.resetLogCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.resetLogCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.resetLogCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getFpSecurityLevelCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getFpSecurityLevelCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getFpSecurityLevelCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setFpSecurityLevelCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setFpSecurityLevelCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.setFpSecurityLevelCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getRelayDelayCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getRelayDelayCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getRelayDelayCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setRelayDelayCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setRelayDelayCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.setRelayDelayCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getAutoInOutCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getAutoInOutCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getAutoInOutCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setAutoInOutCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setAutoInOutCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.setAutoInOutCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogUnauthorizedEventCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogUnauthorizedEventCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getLogUnauthorizedEventCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setLogUnauthorizedEventCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setLogUnauthorizedEventCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.setLogUnauthorizedEventCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setRelayOptionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setRelayOptionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.setRelayOptionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getRelayOptionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getRelayOptionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getRelayOptionCompletedEventArgs.relayOpt">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getRelayOptionCompletedEventArgs.relayOptSpecified">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setSNTPCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setSNTPCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.setSNTPCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getSNTPCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getSNTPCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getSNTPCompletedEventArgs.enable">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getSNTPCompletedEventArgs.enableSpecified">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setSNTPServerCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setSNTPServerCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.setSNTPServerCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getSNTPServerCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getSNTPServerCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getSNTPServerCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTerminalDateTimeCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTerminalDateTimeCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTerminalDateTimeCompletedEventArgs.terminalDate">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTerminalDateTimeCompletedEventArgs.terminalDateSpecified">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setTerminalDateTimeCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setTerminalDateTimeCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.setTerminalDateTimeCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTimeZoneCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTimeZoneCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getTimeZoneCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setTimeZoneCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.setTimeZoneCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.setTimeZoneCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getCaptureFingerprintCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.getCaptureFingerprintCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.getCaptureFingerprintCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.initCaptureFPCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.initCaptureFPCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.initCaptureFPCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.initCaptureFPCompletedEventArgs.status">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.lockCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.lockCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.lockCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.unlockCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.unlockCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.unlockCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.systemBackupCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.systemBackupCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.systemBackupCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.systemRestoreCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:NileTechno.HR.ACTAtek.ACTAtekWSDL.systemRestoreCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:NileTechno.HR.ACTAtek.ACTAtekWSDL.systemRestoreCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

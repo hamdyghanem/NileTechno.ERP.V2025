@@ -1,0 +1,90 @@
+<Settings>
+  <Main>
+    <Language Value="1" />
+    <LoggedUserID Value="-1" />
+    <LoggedUserName Value="" />
+    <SkinName Value="Blue" />
+    <A4Printer Value="" />
+    <EncryptUserName Value="False" />
+    <SystemName Value="NileTechno ERP System" />
+    <ShowYear Value="False" />
+    <ShowBranch Value="False" />
+  </Main>
+  <Server>
+    <Server Value="hamdy-Dell" />
+    <ServerUserName Value="sa" />
+    <ServerPassword Value="pzRB4mLO91c=" />
+    <Database Value="ERP" />
+    <AthunticationType Value="1" />
+    <DatabaseBackupPath Value="D:\" />
+  </Server>
+  <POS>
+    <PosOffLine Value="False" />
+    <PosStoreID Value="1" />
+    <PosTerminalID Value="1" />
+    <ReceiptPrinter Value="" />
+    <StopInQty Value="False" />
+    <PosSearchItemKey Value="0114" />
+    <PosQueryItemKey Value="0115" />
+    <PosHoldKey Value="0117" />
+    <PosReturnHoldKey Value="0118" />
+    <PosGridFocusKey Value="0119" />
+    <PosPaidFocusKey Value="0120" />
+    <PrintReciept Value="True" />
+    <PosReceiptRestore Value="0113" />
+    <UpQtyOnly Value="True" />
+    <LockedBarCode Value="True" />
+    <PosReturn Value="282" />
+    <PosFocusDiscountR Value="True" />
+    <PosFocusDelivery Value="0119" />
+    <PosFocusSalesRep Value="1119" />
+    <PosResOffLine Value="False" />
+    <PosResItemWidth Value="100" />
+    <PosResItemHeight Value="100" />
+    <PosResItemPadding Value="20" />
+    <PosResKitchenItemGroup Value="0" />
+    <PosPrintNo Value="1" />
+    <PosTabletPrint Value="False" />
+    <ResItemGroupNumInColumn Value="1" />
+    <ResItemSubGroupNumInColumn Value="1" />
+    <PosResItemGroupWidth Value="100" />
+    <PosResItemGroupHeight Value="100" />
+    <PosResItemGroupPadding Value="20" />
+    <PosResItemSubGroupWidth Value="100" />
+    <PosResItemSubGroupHeight Value="100" />
+    <PosResItemSubGroupPadding Value="20" />
+    <PosCashierDisplay Value="False" />
+    <PosMarketName Value="NileTechno Demo Market" />
+    <PosCashierDisplayComNo Value="1" />
+    <PosDiscountWithoutSuperUser Value="False" />
+    <PosResPrintKitchen Value="False" />
+    <Modem Value="-" />
+    <PosShowPriceSelectItem Value="False" />
+    <PosPayWithoutPrint Value="2118" />
+    <PosEnableCtrlN Value="False" />
+    <PosSalesRepIDIsMandatory Value="False" />
+    <PosVisa Value="186" />
+    <PosChangePrice Value="167" />
+    <PosAutoRecieveCall Value="True" />
+    <PosTableDetails Value="1123" />
+    <PosClientCardDiscount Value="2123" />
+    <PosCashierCashDrawerComNo Value="0" />
+    <PosResKitchenArea Value="0" />
+    <PosEditDeliveryClient Value="2121" />
+    <PosWholeCloseReciept Value="0123" />
+    <PosChangeDeliveryValue Value="False" />
+  </POS>
+  <Invoice>
+    <InvoiceCopyNum Value="1" />
+    <InvoicePrintHow Value="0" />
+    <InvoicePreview Value="True" />
+    <InvSearchItemKey Value="0114" />
+    <InvoicePayType Value="2" />
+    <InvSearchItemKeyBySupplier Value="1114" />
+    <InvoiceSalesSalesRepisMandatory Value="False" />
+    <InvoiceCustomerRecieveSalesRepisMandatory Value="False" />
+    <SalesCustomerItemDiscount Value="False" />
+    <SalesCustomerItemPrice Value="False" />
+    <SalesCanSaveZeroPrice Value="True" />
+  </Invoice>
+</Settings>

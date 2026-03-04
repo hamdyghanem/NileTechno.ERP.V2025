@@ -1,0 +1,649 @@
+﻿<XtraSerializer version="1.0" application="NTWidgetView">
+  <property name="#LayoutVersion" />
+  <property name="#LayoutScaleFactor">@11,Width=0.857142866@6,Height=0.8125</property>
+  <property name="LayoutMode">FreeLayout</property>
+  <property name="DocumentProperties" isnull="true" iskey="true">
+    <property name="AllowMaximize">false</property>
+    <property name="ShowMaximizeButton">false</property>
+    <property name="AllowClose">false</property>
+  </property>
+  <property name="StackGroupProperties" isnull="true" iskey="true" />
+  <property name="DocumentSpacing">0</property>
+  <property name="FlowLayoutProperties" isnull="true" iskey="true">
+    <property name="FlowLayoutItems" iskey="true" value="0" />
+  </property>
+  <property name="FreeLayoutProperties" isnull="true" iskey="true">
+    <property name="ItemDragStyle">Default</property>
+    <property name="EnableStickySplitters">Default</property>
+    <property name="FreeLayoutItems" iskey="true" value="10">
+      <property name="Item1" isnull="true" iskey="true">
+        <property name="AllowCaptionColorBlending">true</property>
+        <property name="RowIndex">0</property>
+        <property name="ColumnIndex">0</property>
+        <property name="RowSpan">1</property>
+        <property name="ColumnSpan">1</property>
+        <property name="Width">200</property>
+        <property name="Height">200</property>
+      </property>
+      <property name="Item2" isnull="true" iskey="true">
+        <property name="AllowCaptionColorBlending">true</property>
+        <property name="RowIndex">0</property>
+        <property name="ColumnIndex">0</property>
+        <property name="RowSpan">1</property>
+        <property name="ColumnSpan">1</property>
+        <property name="Width">200</property>
+        <property name="Height">200</property>
+      </property>
+      <property name="Item3" isnull="true" iskey="true">
+        <property name="AllowCaptionColorBlending">true</property>
+        <property name="RowIndex">0</property>
+        <property name="ColumnIndex">0</property>
+        <property name="RowSpan">1</property>
+        <property name="ColumnSpan">1</property>
+        <property name="Width">200</property>
+        <property name="Height">200</property>
+      </property>
+      <property name="Item4" isnull="true" iskey="true">
+        <property name="AllowCaptionColorBlending">true</property>
+        <property name="RowIndex">0</property>
+        <property name="ColumnIndex">0</property>
+        <property name="RowSpan">1</property>
+        <property name="ColumnSpan">1</property>
+        <property name="Width">200</property>
+        <property name="Height">200</property>
+      </property>
+      <property name="Item5" isnull="true" iskey="true">
+        <property name="AllowCaptionColorBlending">true</property>
+        <property name="RowIndex">0</property>
+        <property name="ColumnIndex">0</property>
+        <property name="RowSpan">1</property>
+        <property name="ColumnSpan">1</property>
+        <property name="Width">200</property>
+        <property name="Height">200</property>
+      </property>
+      <property name="Item6" isnull="true" iskey="true">
+        <property name="AllowCaptionColorBlending">true</property>
+        <property name="RowIndex">0</property>
+        <property name="ColumnIndex">0</property>
+        <property name="RowSpan">1</property>
+        <property name="ColumnSpan">1</property>
+        <property name="Width">200</property>
+        <property name="Height">200</property>
+      </property>
+      <property name="Item7" isnull="true" iskey="true">
+        <property name="AllowCaptionColorBlending">true</property>
+        <property name="RowIndex">0</property>
+        <property name="ColumnIndex">0</property>
+        <property name="RowSpan">1</property>
+        <property name="ColumnSpan">1</property>
+        <property name="Width">200</property>
+        <property name="Height">200</property>
+      </property>
+      <property name="Item8" isnull="true" iskey="true">
+        <property name="AllowCaptionColorBlending">true</property>
+        <property name="RowIndex">0</property>
+        <property name="ColumnIndex">0</property>
+        <property name="RowSpan">1</property>
+        <property name="ColumnSpan">1</property>
+        <property name="Width">200</property>
+        <property name="Height">200</property>
+      </property>
+      <property name="Item9" isnull="true" iskey="true">
+        <property name="AllowCaptionColorBlending">true</property>
+        <property name="RowIndex">0</property>
+        <property name="ColumnIndex">0</property>
+        <property name="RowSpan">1</property>
+        <property name="ColumnSpan">1</property>
+        <property name="Width">200</property>
+        <property name="Height">200</property>
+      </property>
+      <property name="Item10" isnull="true" iskey="true">
+        <property name="AllowCaptionColorBlending">true</property>
+        <property name="RowIndex">0</property>
+        <property name="ColumnIndex">0</property>
+        <property name="RowSpan">1</property>
+        <property name="ColumnSpan">1</property>
+        <property name="Width">200</property>
+        <property name="Height">200</property>
+      </property>
+    </property>
+  </property>
+  <property name="DocumentAnimationProperties" isnull="true" iskey="true" />
+  <property name="AllowDragDropWobbleAnimation">Default</property>
+  <property name="AllowDocumentStateChangeAnimation">Default</property>
+  <property name="AllowStartupAnimation">Default</property>
+  <property name="AllowResizeAnimation">Default</property>
+  <property name="Orientation">Vertical</property>
+  <property name="AllowDocumentCaptionColorBlending">true</property>
+  <property name="CustomResizeZoneThickness">0</property>
+  <property name="Style">Default</property>
+  <property name="FloatDocumentsAlwaysOnTop">Default</property>
+  <property name="FloatingDocumentContainer">Default</property>
+  <property name="LoadingIndicatorProperties" isnull="true" iskey="true" />
+  <property name="DocumentSelectorProperties" isnull="true" iskey="true" />
+  <property name="WindowsDialogProperties" isnull="true" iskey="true" />
+  <property name="Rows" iskey="true" value="2">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+    </property>
+  </property>
+  <property name="Columns" iskey="true" value="4">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+    </property>
+  </property>
+  <property name="Items" iskey="true" value="23">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="ParentName">FreeLayoutGroup</property>
+      <property name="StackGroupName" isnull="true" />
+      <property name="Index">0</property>
+      <property name="WindowState">Normal</property>
+      <property name="Width">200</property>
+      <property name="Height">200</property>
+      <property name="Maximized">false</property>
+      <property name="RowIndex">0</property>
+      <property name="ColumnIndex">0</property>
+      <property name="RowSpan">1</property>
+      <property name="ColumnSpan">1</property>
+      <property name="Properties" isnull="true" iskey="true">
+        <property name="ShowBorders">True</property>
+        <property name="AllowDock">False</property>
+        <property name="UseFormIconAsDocumentImage">True</property>
+      </property>
+      <property name="IsFloating">false</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Size">@1,Width=0@1,Height=0</property>
+      <property name="IsActive">false</property>
+      <property name="Name">document1</property>
+      <property name="TypeName">Document</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="ParentName">FreeLayoutGroup</property>
+      <property name="StackGroupName" isnull="true" />
+      <property name="Index">1</property>
+      <property name="WindowState">Normal</property>
+      <property name="Width">200</property>
+      <property name="Height">200</property>
+      <property name="Maximized">false</property>
+      <property name="RowIndex">0</property>
+      <property name="ColumnIndex">0</property>
+      <property name="RowSpan">1</property>
+      <property name="ColumnSpan">1</property>
+      <property name="Properties" isnull="true" iskey="true">
+        <property name="ShowBorders">True</property>
+        <property name="AllowDock">False</property>
+        <property name="UseFormIconAsDocumentImage">True</property>
+      </property>
+      <property name="IsFloating">false</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Size">@1,Width=0@1,Height=0</property>
+      <property name="IsActive">false</property>
+      <property name="Name">document2</property>
+      <property name="TypeName">Document</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="ParentName">FreeLayoutGroup</property>
+      <property name="StackGroupName" isnull="true" />
+      <property name="Index">2</property>
+      <property name="WindowState">Normal</property>
+      <property name="Width">200</property>
+      <property name="Height">200</property>
+      <property name="Maximized">false</property>
+      <property name="RowIndex">0</property>
+      <property name="ColumnIndex">0</property>
+      <property name="RowSpan">1</property>
+      <property name="ColumnSpan">1</property>
+      <property name="Properties" isnull="true" iskey="true">
+        <property name="ShowBorders">True</property>
+        <property name="AllowDock">False</property>
+        <property name="UseFormIconAsDocumentImage">True</property>
+      </property>
+      <property name="IsFloating">false</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Size">@1,Width=0@1,Height=0</property>
+      <property name="IsActive">false</property>
+      <property name="Name">document3</property>
+      <property name="TypeName">Document</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="ParentName">FreeLayoutGroup</property>
+      <property name="StackGroupName" isnull="true" />
+      <property name="Index">3</property>
+      <property name="WindowState">Normal</property>
+      <property name="Width">200</property>
+      <property name="Height">200</property>
+      <property name="Maximized">false</property>
+      <property name="RowIndex">0</property>
+      <property name="ColumnIndex">0</property>
+      <property name="RowSpan">1</property>
+      <property name="ColumnSpan">1</property>
+      <property name="Properties" isnull="true" iskey="true">
+        <property name="ShowBorders">True</property>
+        <property name="AllowDock">False</property>
+        <property name="UseFormIconAsDocumentImage">True</property>
+      </property>
+      <property name="IsFloating">false</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Size">@1,Width=0@1,Height=0</property>
+      <property name="IsActive">false</property>
+      <property name="Name">document4</property>
+      <property name="TypeName">Document</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="ParentName">FreeLayoutGroup</property>
+      <property name="StackGroupName" isnull="true" />
+      <property name="Index">4</property>
+      <property name="WindowState">Normal</property>
+      <property name="Width">200</property>
+      <property name="Height">200</property>
+      <property name="Maximized">false</property>
+      <property name="RowIndex">0</property>
+      <property name="ColumnIndex">0</property>
+      <property name="RowSpan">1</property>
+      <property name="ColumnSpan">1</property>
+      <property name="Properties" isnull="true" iskey="true">
+        <property name="ShowBorders">True</property>
+        <property name="AllowDock">False</property>
+        <property name="UseFormIconAsDocumentImage">True</property>
+      </property>
+      <property name="IsFloating">false</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Size">@1,Width=0@1,Height=0</property>
+      <property name="IsActive">false</property>
+      <property name="Name">document5</property>
+      <property name="TypeName">Document</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="ParentName">FreeLayoutGroup</property>
+      <property name="StackGroupName" isnull="true" />
+      <property name="Index">5</property>
+      <property name="WindowState">Normal</property>
+      <property name="Width">200</property>
+      <property name="Height">200</property>
+      <property name="Maximized">false</property>
+      <property name="RowIndex">0</property>
+      <property name="ColumnIndex">0</property>
+      <property name="RowSpan">1</property>
+      <property name="ColumnSpan">1</property>
+      <property name="Properties" isnull="true" iskey="true">
+        <property name="ShowBorders">True</property>
+        <property name="AllowDock">False</property>
+        <property name="UseFormIconAsDocumentImage">True</property>
+      </property>
+      <property name="IsFloating">false</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Size">@1,Width=0@1,Height=0</property>
+      <property name="IsActive">false</property>
+      <property name="Name">document6</property>
+      <property name="TypeName">Document</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="ParentName">FreeLayoutGroup</property>
+      <property name="StackGroupName" isnull="true" />
+      <property name="Index">6</property>
+      <property name="WindowState">Normal</property>
+      <property name="Width">200</property>
+      <property name="Height">200</property>
+      <property name="Maximized">false</property>
+      <property name="RowIndex">0</property>
+      <property name="ColumnIndex">0</property>
+      <property name="RowSpan">1</property>
+      <property name="ColumnSpan">1</property>
+      <property name="Properties" isnull="true" iskey="true">
+        <property name="ShowBorders">True</property>
+        <property name="AllowDock">False</property>
+        <property name="UseFormIconAsDocumentImage">True</property>
+      </property>
+      <property name="IsFloating">false</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Size">@1,Width=0@1,Height=0</property>
+      <property name="IsActive">false</property>
+      <property name="Name">document7</property>
+      <property name="TypeName">Document</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="ParentName">FreeLayoutGroup</property>
+      <property name="StackGroupName" isnull="true" />
+      <property name="Index">7</property>
+      <property name="WindowState">Normal</property>
+      <property name="Width">200</property>
+      <property name="Height">200</property>
+      <property name="Maximized">false</property>
+      <property name="RowIndex">0</property>
+      <property name="ColumnIndex">0</property>
+      <property name="RowSpan">1</property>
+      <property name="ColumnSpan">1</property>
+      <property name="Properties" isnull="true" iskey="true">
+        <property name="ShowBorders">True</property>
+        <property name="AllowDock">False</property>
+        <property name="UseFormIconAsDocumentImage">True</property>
+      </property>
+      <property name="IsFloating">false</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Size">@1,Width=0@1,Height=0</property>
+      <property name="IsActive">false</property>
+      <property name="Name">document8</property>
+      <property name="TypeName">Document</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="ParentName">FreeLayoutGroup</property>
+      <property name="StackGroupName" isnull="true" />
+      <property name="Index">8</property>
+      <property name="WindowState">Normal</property>
+      <property name="Width">200</property>
+      <property name="Height">200</property>
+      <property name="Maximized">false</property>
+      <property name="RowIndex">0</property>
+      <property name="ColumnIndex">0</property>
+      <property name="RowSpan">1</property>
+      <property name="ColumnSpan">1</property>
+      <property name="Properties" isnull="true" iskey="true">
+        <property name="ShowBorders">True</property>
+        <property name="AllowDock">False</property>
+        <property name="UseFormIconAsDocumentImage">True</property>
+      </property>
+      <property name="IsFloating">false</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Size">@1,Width=0@1,Height=0</property>
+      <property name="IsActive">false</property>
+      <property name="Name">document9</property>
+      <property name="TypeName">Document</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="ParentName">FreeLayoutGroup</property>
+      <property name="StackGroupName" isnull="true" />
+      <property name="Index">9</property>
+      <property name="WindowState">Normal</property>
+      <property name="Width">200</property>
+      <property name="Height">200</property>
+      <property name="Maximized">false</property>
+      <property name="RowIndex">0</property>
+      <property name="ColumnIndex">0</property>
+      <property name="RowSpan">1</property>
+      <property name="ColumnSpan">1</property>
+      <property name="Properties" isnull="true" iskey="true">
+        <property name="ShowBorders">True</property>
+        <property name="AllowDock">False</property>
+        <property name="UseFormIconAsDocumentImage">True</property>
+      </property>
+      <property name="IsFloating">false</property>
+      <property name="Location">@1,X=0@1,Y=0</property>
+      <property name="Size">@1,Width=0@1,Height=0</property>
+      <property name="IsActive">false</property>
+      <property name="Name">document10</property>
+      <property name="TypeName">Document</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="Caption" />
+      <property name="Properties" isnull="true" iskey="true" />
+      <property name="Index">0</property>
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Name">StackGroup0</property>
+      <property name="TypeName">StackGroup</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="Caption" />
+      <property name="Properties" isnull="true" iskey="true" />
+      <property name="Index">1</property>
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Name">StackGroup1</property>
+      <property name="TypeName">StackGroup</property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="Width" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Height" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Parent">Root</property>
+      <property name="Element" isnull="true" />
+      <property name="Orientation">Vertical</property>
+      <property name="Index">0</property>
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Name">WidgetDockingContainer0</property>
+      <property name="TypeName">WidgetDockingContainer</property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="Width" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Height" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Parent">WidgetDockingContainer0</property>
+      <property name="Element">document1</property>
+      <property name="Orientation">Horizontal</property>
+      <property name="Index">0</property>
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Name">WidgetDockingContainer1</property>
+      <property name="TypeName">WidgetDockingContainer</property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="Width" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Height" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Parent">WidgetDockingContainer0</property>
+      <property name="Element">document2</property>
+      <property name="Orientation">Horizontal</property>
+      <property name="Index">1</property>
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Name">WidgetDockingContainer2</property>
+      <property name="TypeName">WidgetDockingContainer</property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="Width" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Height" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Parent">WidgetDockingContainer0</property>
+      <property name="Element">document3</property>
+      <property name="Orientation">Horizontal</property>
+      <property name="Index">2</property>
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Name">WidgetDockingContainer3</property>
+      <property name="TypeName">WidgetDockingContainer</property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="Width" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Height" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Parent">WidgetDockingContainer0</property>
+      <property name="Element">document4</property>
+      <property name="Orientation">Horizontal</property>
+      <property name="Index">3</property>
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Name">WidgetDockingContainer4</property>
+      <property name="TypeName">WidgetDockingContainer</property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="Width" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Height" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Parent">WidgetDockingContainer0</property>
+      <property name="Element">document5</property>
+      <property name="Orientation">Horizontal</property>
+      <property name="Index">4</property>
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Name">WidgetDockingContainer5</property>
+      <property name="TypeName">WidgetDockingContainer</property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="Width" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Height" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Parent">WidgetDockingContainer0</property>
+      <property name="Element">document6</property>
+      <property name="Orientation">Horizontal</property>
+      <property name="Index">5</property>
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Name">WidgetDockingContainer6</property>
+      <property name="TypeName">WidgetDockingContainer</property>
+    </property>
+    <property name="Item20" isnull="true" iskey="true">
+      <property name="Width" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Height" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Parent">WidgetDockingContainer0</property>
+      <property name="Element">document7</property>
+      <property name="Orientation">Horizontal</property>
+      <property name="Index">6</property>
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Name">WidgetDockingContainer7</property>
+      <property name="TypeName">WidgetDockingContainer</property>
+    </property>
+    <property name="Item21" isnull="true" iskey="true">
+      <property name="Width" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Height" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Parent">WidgetDockingContainer0</property>
+      <property name="Element">document8</property>
+      <property name="Orientation">Horizontal</property>
+      <property name="Index">7</property>
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Name">WidgetDockingContainer8</property>
+      <property name="TypeName">WidgetDockingContainer</property>
+    </property>
+    <property name="Item22" isnull="true" iskey="true">
+      <property name="Width" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Height" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Parent">WidgetDockingContainer0</property>
+      <property name="Element">document9</property>
+      <property name="Orientation">Horizontal</property>
+      <property name="Index">8</property>
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Name">WidgetDockingContainer9</property>
+      <property name="TypeName">WidgetDockingContainer</property>
+    </property>
+    <property name="Item23" isnull="true" iskey="true">
+      <property name="Width" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Height" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Parent">WidgetDockingContainer0</property>
+      <property name="Element">document10</property>
+      <property name="Orientation">Horizontal</property>
+      <property name="Index">9</property>
+      <property name="Length" isnull="true" iskey="true">
+        <property name="UnitValue">1</property>
+        <property name="UnitType">Star</property>
+      </property>
+      <property name="Name">WidgetDockingContainer10</property>
+      <property name="TypeName">WidgetDockingContainer</property>
+    </property>
+  </property>
+</XtraSerializer>

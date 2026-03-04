@@ -1,0 +1,13 @@
+private async Task<int> DoStuffAsync()
+{
+    return 0;
+}
+
+
+private async Task<int> DoStuffAsync()
+{
+    return await Task.Run<int>(() =>
+    {
+        return 0;
+    });
+}

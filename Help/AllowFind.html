@@ -1,0 +1,69 @@
+<p style="margin: 12px 0px; color: rgb(0, 0, 0); font-family: 'Segoe UI', Verdana, Arial; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+    <b>Examples</b></p>
+<div class="tablediv" 
+    style="color: rgb(0, 0, 0); font-family: 'Segoe UI', Verdana, Arial; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+    <table cellspacing="0" class="dtTABLE" 
+        style="border-collapse: collapse; border: 1px solid rgb(187, 187, 187); margin-bottom: 5px; margin-top: 5px; margin-right: 13px; padding: 0px; width: auto;">
+        <tr>
+            <th style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); background-color: rgb(229, 229, 229); padding-left: 13px; padding-right: 13px; vertical-align: middle; text-align: left;">
+                Search Criteria</th>
+            <th style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); background-color: rgb(229, 229, 229); padding-left: 13px; padding-right: 13px; vertical-align: middle; text-align: left;">
+                Description</th>
+        </tr>
+        <tr valign="top">
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                <code>register</code></td>
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                Selects records that contain the &quot;register&quot; string in any search column.</td>
+        </tr>
+        <tr valign="top">
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                <code>check register Dave</code></td>
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                Selects records that contain either &quot;check&quot; OR &quot;register&quot; OR &quot;Dave&quot; strings in 
+                any search column.</td>
+        </tr>
+        <tr valign="top">
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                <code>&quot;check register&quot;</code></td>
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                Selects records that contain &quot;check register&quot; in any search column.</td>
+        </tr>
+        <tr valign="top">
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                <code>screen&nbsp;+&quot;Richard&nbsp;Fisher&quot;</code></td>
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                Selects records that contain both &quot;screen&quot; AND &quot;Richard Fisher&quot; in search 
+                columns.</td>
+        </tr>
+        <tr valign="top">
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                <code>data&nbsp;+entry&nbsp;-mark</code></td>
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                Selects records that contain both &quot;data&quot; AND &quot;entry&quot; in search columns, 
+                excluding records that contain &quot;mark&quot;.</td>
+        </tr>
+        <tr valign="top">
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                <code>menu&nbsp;mask&nbsp;-file</code></td>
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                Selects records that contain &quot;menu&quot; OR &quot;mask&quot;, excluding records that contain 
+                &quot;file&quot;.</td>
+        </tr>
+        <tr valign="top">
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                <code>From:Roller&nbsp;Subj:&quot;currency&nbsp;mask&quot;</code></td>
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                Selects records that contain &quot;Roller&quot; in the column that starts with &quot;From&quot;, AND 
+                also contain &quot;currency mask&quot; in the column that starts with &quot;Subj&quot;.</td>
+        </tr>
+        <tr valign="top">
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                <code>import&nbsp;-From:Steve</code></td>
+            <td style="font-family: 'Segoe UI', Verdana, Arial; font-size: 0.85em; border: 1px solid rgb(187, 187, 187); color: rgb(0, 0, 0); padding: 5px; overflow: visible; vertical-align: top;">
+                Selects records that contain &quot;import&quot; in any search column, excluding records 
+                that contain &quot;Steve&quot; in the column that starts with &quot;From&quot;.</td>
+        </tr>
+    </table>
+</div>
+<br class="Apple-interchange-newline" />

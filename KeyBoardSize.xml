@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <KeyBoardSize>
+    <FormName>txtDiscountR</FormName>
+    <ControlName>frmPos</ControlName>
+    <Width>0</Width>
+    <Height>0</Height>
+  </KeyBoardSize>
+  <KeyBoardSize>
+    <FormName>frmPos</FormName>
+    <ControlName>txtDiscountR</ControlName>
+    <Width>318</Width>
+    <Height>247</Height>
+  </KeyBoardSize>
+  <KeyBoardSize>
+    <FormName />
+    <ControlName />
+    <Width>384</Width>
+    <Height>295</Height>
+  </KeyBoardSize>
+  <KeyBoardSize>
+    <FormName>frmPos</FormName>
+    <ControlName>txtDiscount</ControlName>
+    <Width>225</Width>
+    <Height>232</Height>
+  </KeyBoardSize>
+</DocumentElement>

@@ -1,0 +1,1576 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <LOV>
+    <id>1</id>
+    <name>صنف 1</name>
+    <code>1</code>
+    <itemcode>1</itemcode>
+    <itembarcode>1</itembarcode>
+    <packageprice>4</packageprice>
+    <package>2</package>
+    <packagename>كبدة </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>1</id>
+    <name>صنف 1</name>
+    <code>1</code>
+    <itemcode>1</itemcode>
+    <itembarcode>1</itembarcode>
+    <packageprice>5</packageprice>
+    <package>3</package>
+    <packagename>لحم </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>1</id>
+    <name>صنف 1</name>
+    <code>1</code>
+    <itemcode>1</itemcode>
+    <itembarcode>1</itembarcode>
+    <packageprice>10.65</packageprice>
+    <package>1</package>
+    <packagename>سادة </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>2</id>
+    <name>صنف 2</name>
+    <code>2</code>
+    <itemcode>2</itemcode>
+    <itembarcode>2</itembarcode>
+    <packageprice>4</packageprice>
+    <package>2</package>
+    <packagename>كبدة </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>2</id>
+    <name>صنف 2</name>
+    <code>2</code>
+    <itemcode>2</itemcode>
+    <itembarcode>2</itembarcode>
+    <packageprice>4.35</packageprice>
+    <package>1</package>
+    <packagename>سادة </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>2</id>
+    <name>صنف 2</name>
+    <code>2</code>
+    <itemcode>2</itemcode>
+    <itembarcode>2</itembarcode>
+    <packageprice>5</packageprice>
+    <package>3</package>
+    <packagename>لحم </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>3</id>
+    <name>صنف 3</name>
+    <code>3</code>
+    <itemcode>3</itemcode>
+    <itembarcode>3</itembarcode>
+    <packageprice>2.61</packageprice>
+    <package>1</package>
+    <packagename>سادة </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>3</id>
+    <name>صنف 3</name>
+    <code>3</code>
+    <itemcode>3</itemcode>
+    <itembarcode>3</itembarcode>
+    <packageprice>4</packageprice>
+    <package>2</package>
+    <packagename>كبدة </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>3</id>
+    <name>صنف 3</name>
+    <code>3</code>
+    <itemcode>3</itemcode>
+    <itembarcode>3</itembarcode>
+    <packageprice>5</packageprice>
+    <package>3</package>
+    <packagename>لحم </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>4</id>
+    <name>طبق كشري عائلى</name>
+    <code>4</code>
+    <itemcode>4</itemcode>
+    <itembarcode>4</itembarcode>
+    <packageprice>40</packageprice>
+    <package>1</package>
+    <packagename>سادة </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>5</id>
+    <name>علبة  كشري وسط </name>
+    <code>5</code>
+    <itemcode>5</itemcode>
+    <itembarcode>5</itembarcode>
+    <packageprice>13</packageprice>
+    <package>1</package>
+    <packagename>سادة </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>6</id>
+    <name>علبة كشري هند </name>
+    <code>6</code>
+    <itemcode>6</itemcode>
+    <itembarcode>6</itembarcode>
+    <packageprice>13</packageprice>
+    <package>1</package>
+    <packagename>سادة </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>7</id>
+    <name>علبة  كشري لارج </name>
+    <code>7</code>
+    <itemcode>7</itemcode>
+    <itembarcode>7</itembarcode>
+    <packageprice>22</packageprice>
+    <package>1</package>
+    <packagename>سادة </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>8</id>
+    <name>علة كشري عائلي </name>
+    <code>8</code>
+    <itemcode>8</itemcode>
+    <itembarcode>8</itembarcode>
+    <packageprice>30</packageprice>
+    <package>1</package>
+    <packagename>سادة </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>9</id>
+    <name>طاجن مكرونة نجرسكو لحم</name>
+    <code>9</code>
+    <itemcode>9</itemcode>
+    <itembarcode>9</itembarcode>
+    <packageprice>23</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>10</id>
+    <name>طاجن مكرونة نجرسكو دجاج</name>
+    <code>10</code>
+    <itemcode>10</itemcode>
+    <itembarcode>10</itembarcode>
+    <packageprice>23</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>11</id>
+    <name>حواوشي لحم </name>
+    <code>11</code>
+    <itemcode>11</itemcode>
+    <itembarcode>11</itembarcode>
+    <packageprice>15</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>12</id>
+    <name>حواوشي لحم جبنة موتزاريلا</name>
+    <code>12</code>
+    <itemcode>12</itemcode>
+    <itembarcode>12</itembarcode>
+    <packageprice>20</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>13</id>
+    <name>طاجن مكرونة كبدة </name>
+    <code>13</code>
+    <itemcode>13</itemcode>
+    <itembarcode>13</itembarcode>
+    <packageprice>15</packageprice>
+    <package>1</package>
+    <packagename>سادة </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>14</id>
+    <name>طاجن مكرونة دجاج</name>
+    <code>14</code>
+    <itemcode>14</itemcode>
+    <itembarcode>14</itembarcode>
+    <packageprice>18</packageprice>
+    <package>1</package>
+    <packagename>سادة </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>15</id>
+    <name>طاجن مكرونة لحم </name>
+    <code>15</code>
+    <itemcode>15</itemcode>
+    <itembarcode>15</itembarcode>
+    <packageprice>18</packageprice>
+    <package>1</package>
+    <packagename>سادة </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>16</id>
+    <name>صلصة </name>
+    <code>16</code>
+    <itemcode>16</itemcode>
+    <itembarcode>16</itembarcode>
+    <packageprice>5</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>17</id>
+    <name>عيش توست</name>
+    <code>17</code>
+    <itemcode>17</itemcode>
+    <itembarcode>17</itembarcode>
+    <packageprice>4</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>18</id>
+    <name>عدس</name>
+    <code>18</code>
+    <itemcode>18</itemcode>
+    <itembarcode>18</itembarcode>
+    <packageprice>3</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>19</id>
+    <name>تقلية </name>
+    <code>19</code>
+    <itemcode>19</itemcode>
+    <itembarcode>19</itembarcode>
+    <packageprice>5</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>20</id>
+    <name>حمص</name>
+    <code>20</code>
+    <itemcode>20</itemcode>
+    <itembarcode>20</itembarcode>
+    <packageprice>3</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>21</id>
+    <name>سلطة خضراء</name>
+    <code>21</code>
+    <itemcode>21</itemcode>
+    <itembarcode>21</itembarcode>
+    <packageprice>3</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>22</id>
+    <name>طماطم متبلة</name>
+    <code>22</code>
+    <itemcode>22</itemcode>
+    <itembarcode>22</itembarcode>
+    <packageprice>3</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>23</id>
+    <name>خيار مخلل </name>
+    <code>23</code>
+    <itemcode>23</itemcode>
+    <itembarcode>23</itembarcode>
+    <packageprice>3</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>24</id>
+    <name>رز بلبن سادة </name>
+    <code>24</code>
+    <itemcode>24</itemcode>
+    <itembarcode>24</itembarcode>
+    <packageprice>6</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>25</id>
+    <name>رز بلبن فرن </name>
+    <code>25</code>
+    <itemcode>25</itemcode>
+    <itembarcode>25</itembarcode>
+    <packageprice>8</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>26</id>
+    <name>رز بلبن مكسرات </name>
+    <code>26</code>
+    <itemcode>26</itemcode>
+    <itembarcode>26</itembarcode>
+    <packageprice>8</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>27</id>
+    <name>مهلبية سادة </name>
+    <code>27</code>
+    <itemcode>27</itemcode>
+    <itembarcode>27</itembarcode>
+    <packageprice>6</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>28</id>
+    <name>مهلبية مكسرات </name>
+    <code>28</code>
+    <itemcode>28</itemcode>
+    <itembarcode>28</itembarcode>
+    <packageprice>8</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>29</id>
+    <name>مياه</name>
+    <code>29</code>
+    <itemcode>29</itemcode>
+    <itembarcode>29</itembarcode>
+    <packageprice>1</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>30</id>
+    <name>مياه غازية </name>
+    <code>30</code>
+    <itemcode>30</itemcode>
+    <itembarcode>30</itembarcode>
+    <packageprice>2</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>31</id>
+    <name>طبق كشري عرض الافتتاح </name>
+    <code>31</code>
+    <itemcode>31</itemcode>
+    <itembarcode>31</itembarcode>
+    <packageprice>1</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>32</id>
+    <name>علبة كشري هند </name>
+    <code>32</code>
+    <itemcode>32</itemcode>
+    <itembarcode>32</itembarcode>
+    <packageprice>25.5</packageprice>
+    <package>1</package>
+    <packagename>لحم </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>33</id>
+    <name>علبة كشري وسط </name>
+    <code>33</code>
+    <itemcode>33</itemcode>
+    <itembarcode>33</itembarcode>
+    <packageprice>23</packageprice>
+    <package>1</package>
+    <packagename>لحم </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>34</id>
+    <name>علبة كشري لارج</name>
+    <code>34</code>
+    <itemcode>34</itemcode>
+    <itembarcode>34</itembarcode>
+    <packageprice>34.5</packageprice>
+    <package>1</package>
+    <packagename>لحم </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>35</id>
+    <name>سلطه </name>
+    <code>35</code>
+    <itemcode>35</itemcode>
+    <itembarcode>35</itembarcode>
+    <packageprice>6</packageprice>
+    <package>1</package>
+    <packagename>سلطه خضراء </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>36</id>
+    <name>الحلويات </name>
+    <code>36</code>
+    <itemcode>36</itemcode>
+    <itembarcode>36</itembarcode>
+    <packageprice>7</packageprice>
+    <package>1</package>
+    <packagename>مهلبية سادة </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>37</id>
+    <name>مشروبات </name>
+    <code>37</code>
+    <itemcode>37</itemcode>
+    <itembarcode>37</itembarcode>
+    <packageprice>4</packageprice>
+    <package>1</package>
+    <packagename>مياه غازية </packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>38</id>
+    <name>طاجن مكرونة لحم </name>
+    <code>38</code>
+    <itemcode>38</itemcode>
+    <itembarcode>38</itembarcode>
+    <packageprice>22</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>39</id>
+    <name>طاجن مكرونة كبدة </name>
+    <code>39</code>
+    <itemcode>39</itemcode>
+    <itembarcode>39</itembarcode>
+    <packageprice>18</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>40</id>
+    <name>طاجن مكرونة دجاج </name>
+    <code>40</code>
+    <itemcode>40</itemcode>
+    <itembarcode>40</itembarcode>
+    <packageprice>22</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>41</id>
+    <name>جمص </name>
+    <code>41</code>
+    <itemcode>41</itemcode>
+    <itembarcode>41</itembarcode>
+    <packageprice>6</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>42</id>
+    <name>خبز توست </name>
+    <code>42</code>
+    <itemcode>42</itemcode>
+    <itembarcode>42</itembarcode>
+    <packageprice>6</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>43</id>
+    <name>عدس </name>
+    <code>43</code>
+    <itemcode>43</itemcode>
+    <itembarcode>43</itembarcode>
+    <packageprice>6</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>44</id>
+    <name>تقلية </name>
+    <code>44</code>
+    <itemcode>44</itemcode>
+    <itembarcode>44</itembarcode>
+    <packageprice>6</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>45</id>
+    <name>صلصة </name>
+    <code>45</code>
+    <itemcode>45</itemcode>
+    <itembarcode>45</itembarcode>
+    <packageprice>6</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>46</id>
+    <name>عرض توفير </name>
+    <code>46</code>
+    <itemcode>46</itemcode>
+    <itembarcode>46</itembarcode>
+    <packageprice>20</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>47</id>
+    <name>طبق كشري هند</name>
+    <code>47</code>
+    <itemcode>47</itemcode>
+    <itembarcode>47</itembarcode>
+    <packageprice>0</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>48</id>
+    <name>رز بلبن </name>
+    <code>48</code>
+    <itemcode>48</itemcode>
+    <itembarcode>48</itembarcode>
+    <packageprice>0</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>49</id>
+    <name>مياه غازيه </name>
+    <code>49</code>
+    <itemcode>49</itemcode>
+    <itembarcode>49</itembarcode>
+    <packageprice>0</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>50</id>
+    <name>مياه</name>
+    <code>50</code>
+    <itemcode>50</itemcode>
+    <itembarcode>50</itembarcode>
+    <packageprice>0</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>51</id>
+    <name>حواوشي لحم جبنة موتزاريلا</name>
+    <code>51</code>
+    <itemcode>51</itemcode>
+    <itembarcode>51</itembarcode>
+    <packageprice>23</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>52</id>
+    <name>حواوشي لحم </name>
+    <code>52</code>
+    <itemcode>52</itemcode>
+    <itembarcode>52</itembarcode>
+    <packageprice>18</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>53</id>
+    <name>طاجن مكرونة نجرسكو </name>
+    <code>53</code>
+    <itemcode>53</itemcode>
+    <itembarcode>53</itembarcode>
+    <packageprice>27.5</packageprice>
+    <package>1</package>
+    <packagename>دجاج</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>54</id>
+    <name>كشري عائلي </name>
+    <code>54</code>
+    <itemcode>54</itemcode>
+    <itembarcode>54</itembarcode>
+    <packageprice>46</packageprice>
+    <package>1</package>
+    <packagename>دجاج</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>55</id>
+    <name>كبده </name>
+    <code>55</code>
+    <itemcode>55</itemcode>
+    <itembarcode>55</itembarcode>
+    <packageprice>5</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>56</id>
+    <name>دجاج</name>
+    <code>56</code>
+    <itemcode>56</itemcode>
+    <itembarcode>56</itembarcode>
+    <packageprice>7</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>57</id>
+    <name>لحمه</name>
+    <code>57</code>
+    <itemcode>57</itemcode>
+    <itembarcode>57</itembarcode>
+    <packageprice>7</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>58</id>
+    <name>عرض التوفير</name>
+    <code>58</code>
+    <itemcode>58</itemcode>
+    <itembarcode>58</itembarcode>
+    <packageprice>23</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>59</id>
+    <name>عرض الكشرى </name>
+    <code>59</code>
+    <itemcode>59</itemcode>
+    <itembarcode>59</itembarcode>
+    <packageprice>15</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>60</id>
+    <name>عرض الطاجن والكشرى +توست +سلطه+مياه +كينزا</name>
+    <code>60</code>
+    <itemcode>60</itemcode>
+    <itembarcode>60</itembarcode>
+    <packageprice>30</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>61</id>
+    <name>ربع دجاج فرن </name>
+    <code>61</code>
+    <itemcode>61</itemcode>
+    <itembarcode>61</itembarcode>
+    <packageprice>17</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>62</id>
+    <name>ربع دجاج محمر</name>
+    <code>62</code>
+    <itemcode>62</itemcode>
+    <itembarcode>62</itembarcode>
+    <packageprice>16</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>63</id>
+    <name>نصف دجاج محمر </name>
+    <code>63</code>
+    <itemcode>63</itemcode>
+    <itembarcode>63</itembarcode>
+    <packageprice>28</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>64</id>
+    <name>نصف دجاج فرن </name>
+    <code>64</code>
+    <itemcode>64</itemcode>
+    <itembarcode>64</itembarcode>
+    <packageprice>30</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>65</id>
+    <name>موزة ضانى محمرة </name>
+    <code>65</code>
+    <itemcode>65</itemcode>
+    <itembarcode>65</itembarcode>
+    <packageprice>42</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>66</id>
+    <name>فته موزه ضانى </name>
+    <code>66</code>
+    <itemcode>66</itemcode>
+    <itembarcode>66</itembarcode>
+    <packageprice>45</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>67</id>
+    <name>ورقه لحمه </name>
+    <code>67</code>
+    <itemcode>67</itemcode>
+    <itembarcode>67</itembarcode>
+    <packageprice>38</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>68</id>
+    <name>طاجن لحمه بالبصل </name>
+    <code>68</code>
+    <itemcode>68</itemcode>
+    <itembarcode>68</itembarcode>
+    <packageprice>38</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>69</id>
+    <name>طاجن ورق عنب بالكوارع </name>
+    <code>69</code>
+    <itemcode>69</itemcode>
+    <itembarcode>69</itembarcode>
+    <packageprice>45</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>70</id>
+    <name>طاجن كوارع </name>
+    <code>70</code>
+    <itemcode>70</itemcode>
+    <itembarcode>70</itembarcode>
+    <packageprice>38</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>71</id>
+    <name>طاجن عكاوي </name>
+    <code>71</code>
+    <itemcode>71</itemcode>
+    <itembarcode>71</itembarcode>
+    <packageprice>38</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>72</id>
+    <name>طاجن لحمه بالخضار </name>
+    <code>72</code>
+    <itemcode>72</itemcode>
+    <itembarcode>72</itembarcode>
+    <packageprice>38</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>73</id>
+    <name>حبه بطه كامله </name>
+    <code>73</code>
+    <itemcode>73</itemcode>
+    <itembarcode>73</itembarcode>
+    <packageprice>95</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>74</id>
+    <name>نصف بطه</name>
+    <code>74</code>
+    <itemcode>74</itemcode>
+    <itembarcode>74</itembarcode>
+    <packageprice>50</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>75</id>
+    <name>حبه حمام محشى رز وشوربه</name>
+    <code>75</code>
+    <itemcode>75</itemcode>
+    <itembarcode>75</itembarcode>
+    <packageprice>30</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>76</id>
+    <name>حبه حمام محشى ارز وفريك ارز وخضار</name>
+    <code>76</code>
+    <itemcode>76</itemcode>
+    <itembarcode>76</itembarcode>
+    <packageprice>38</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>77</id>
+    <name>طبق محشى كرنب </name>
+    <code>77</code>
+    <itemcode>77</itemcode>
+    <itembarcode>77</itembarcode>
+    <packageprice>15</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>78</id>
+    <name>طبق محشى ورق عنب</name>
+    <code>78</code>
+    <itemcode>78</itemcode>
+    <itembarcode>78</itembarcode>
+    <packageprice>15</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>79</id>
+    <name>طبق محشى مشكل </name>
+    <code>79</code>
+    <itemcode>79</itemcode>
+    <itembarcode>79</itembarcode>
+    <packageprice>25</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>80</id>
+    <name>محشى ممبار </name>
+    <code>80</code>
+    <itemcode>80</itemcode>
+    <itembarcode>80</itembarcode>
+    <packageprice>15</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>81</id>
+    <name>1 حبه سمبوسه </name>
+    <code>81</code>
+    <itemcode>81</itemcode>
+    <itembarcode>81</itembarcode>
+    <packageprice>1</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>82</id>
+    <name>شوربه كوارع </name>
+    <code>82</code>
+    <itemcode>82</itemcode>
+    <itembarcode>82</itembarcode>
+    <packageprice>15</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>83</id>
+    <name>شوربه لسان عصفور </name>
+    <code>83</code>
+    <itemcode>83</itemcode>
+    <itembarcode>83</itembarcode>
+    <packageprice>7</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>84</id>
+    <name>طبق رز او خضار او ملوخيه </name>
+    <code>84</code>
+    <itemcode>84</itemcode>
+    <itembarcode>84</itembarcode>
+    <packageprice>7</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>85</id>
+    <name>عرض الموزه فته وخضار وشوربه وسلطه</name>
+    <code>85</code>
+    <itemcode>85</itemcode>
+    <itembarcode>85</itembarcode>
+    <packageprice>30</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>86</id>
+    <name>عرض ربع دجاج مع رز وخضار وشوربه وسلطه</name>
+    <code>86</code>
+    <itemcode>86</itemcode>
+    <itembarcode>86</itembarcode>
+    <packageprice>15</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>87</id>
+    <name>عرض طاجن العكاوى رز وخضار وشوربه وسلطه </name>
+    <code>87</code>
+    <itemcode>87</itemcode>
+    <itembarcode>87</itembarcode>
+    <packageprice>30</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>88</id>
+    <name>عرض طاجن اللحمه بالخضار مع رز وشوربه وسلطه </name>
+    <code>88</code>
+    <itemcode>88</itemcode>
+    <itembarcode>88</itembarcode>
+    <packageprice>28</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>89</id>
+    <name>طبق فول زيت حار او حلو او زيتون</name>
+    <code>89</code>
+    <itemcode>89</itemcode>
+    <itembarcode>89</itembarcode>
+    <packageprice>8</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>90</id>
+    <name>طبق فول اسكندرانى </name>
+    <code>90</code>
+    <itemcode>90</itemcode>
+    <itembarcode>90</itembarcode>
+    <packageprice>10</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>91</id>
+    <name>طبق فول بالزبده </name>
+    <code>91</code>
+    <itemcode>91</itemcode>
+    <itembarcode>91</itembarcode>
+    <packageprice>10</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>92</id>
+    <name>طبق بطاطس صوابع </name>
+    <code>92</code>
+    <itemcode>92</itemcode>
+    <itembarcode>92</itembarcode>
+    <packageprice>8</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>93</id>
+    <name>طبق بطاطس مهروسه</name>
+    <code>93</code>
+    <itemcode>93</itemcode>
+    <itembarcode>93</itembarcode>
+    <packageprice>8</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>94</id>
+    <name>طبق عجه فرنساوى</name>
+    <code>94</code>
+    <itemcode>94</itemcode>
+    <itembarcode>94</itembarcode>
+    <packageprice>8</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>95</id>
+    <name>طبق غنوج</name>
+    <code>95</code>
+    <itemcode>95</itemcode>
+    <itembarcode>95</itembarcode>
+    <packageprice>8</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>96</id>
+    <name>طبق شكشوكه</name>
+    <code>96</code>
+    <itemcode>96</itemcode>
+    <itembarcode>96</itembarcode>
+    <packageprice>8</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>97</id>
+    <name>طبق بيض بسطرمه</name>
+    <code>97</code>
+    <itemcode>97</itemcode>
+    <itembarcode>97</itembarcode>
+    <packageprice>12</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>98</id>
+    <name>قرص بيض </name>
+    <code>98</code>
+    <itemcode>98</itemcode>
+    <itembarcode>98</itembarcode>
+    <packageprice>8</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>99</id>
+    <name>طبق بيض بالطحينه </name>
+    <code>99</code>
+    <itemcode>99</itemcode>
+    <itembarcode>99</itembarcode>
+    <packageprice>8</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>100</id>
+    <name>طبق بيض مدحرج</name>
+    <code>100</code>
+    <itemcode>100</itemcode>
+    <itembarcode>100</itembarcode>
+    <packageprice>8</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>101</id>
+    <name>طبق مسقعه </name>
+    <code>101</code>
+    <itemcode>101</itemcode>
+    <itembarcode>101</itembarcode>
+    <packageprice>8</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>102</id>
+    <name>طبق جبنه بدبس الفلفل</name>
+    <code>102</code>
+    <itemcode>102</itemcode>
+    <itembarcode>102</itembarcode>
+    <packageprice>8</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>103</id>
+    <name>طبق بذنجان محشى</name>
+    <code>103</code>
+    <itemcode>103</itemcode>
+    <itembarcode>103</itembarcode>
+    <packageprice>7</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>104</id>
+    <name>طبق بذنجان مقلى </name>
+    <code>104</code>
+    <itemcode>104</itemcode>
+    <itembarcode>104</itembarcode>
+    <packageprice>7</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>105</id>
+    <name>طبق جبنه بالطماطم والخيار </name>
+    <code>105</code>
+    <itemcode>105</itemcode>
+    <itembarcode>105</itembarcode>
+    <packageprice>8</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>106</id>
+    <name>فلافل بالسمسم 2 حبه </name>
+    <code>106</code>
+    <itemcode>106</itemcode>
+    <itembarcode>106</itembarcode>
+    <packageprice>1</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>107</id>
+    <name>فلافل محشيه 1 حبه </name>
+    <code>107</code>
+    <itemcode>107</itemcode>
+    <itembarcode>107</itembarcode>
+    <packageprice>1</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>108</id>
+    <name>عصير مانجا صغير </name>
+    <code>108</code>
+    <itemcode>108</itemcode>
+    <itembarcode>108</itembarcode>
+    <packageprice>7</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>109</id>
+    <name>عصير جوافه صغير </name>
+    <code>109</code>
+    <itemcode>109</itemcode>
+    <itembarcode>109</itembarcode>
+    <packageprice>7</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>110</id>
+    <name>عصير تمر هندى صغير </name>
+    <code>110</code>
+    <itemcode>110</itemcode>
+    <itembarcode>110</itembarcode>
+    <packageprice>4</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>111</id>
+    <name>عصير سوبيا صغير </name>
+    <code>111</code>
+    <itemcode>111</itemcode>
+    <itembarcode>111</itembarcode>
+    <packageprice>7</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>112</id>
+    <name>عصير عناب صغير </name>
+    <code>112</code>
+    <itemcode>112</itemcode>
+    <itembarcode>112</itembarcode>
+    <packageprice>4</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>113</id>
+    <name>عصير سوبيا صغير </name>
+    <code>113</code>
+    <itemcode>113</itemcode>
+    <itembarcode>113</itembarcode>
+    <packageprice>7</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>114</id>
+    <name>عصير سوبيا كبير </name>
+    <code>114</code>
+    <itemcode>114</itemcode>
+    <itembarcode>114</itembarcode>
+    <packageprice>15</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>115</id>
+    <name>عصير جوافه باللبن صغير </name>
+    <code>115</code>
+    <itemcode>115</itemcode>
+    <itembarcode>115</itembarcode>
+    <packageprice>7</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>116</id>
+    <name>عصير جوافه باللبن كبير </name>
+    <code>116</code>
+    <itemcode>116</itemcode>
+    <itembarcode>116</itembarcode>
+    <packageprice>15</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>117</id>
+    <name>عصير مانجا صغير </name>
+    <code>117</code>
+    <itemcode>117</itemcode>
+    <itembarcode>117</itembarcode>
+    <packageprice>7</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>118</id>
+    <name>عصير مانجا كبير </name>
+    <code>118</code>
+    <itemcode>118</itemcode>
+    <itembarcode>118</itembarcode>
+    <packageprice>15</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>119</id>
+    <name>عصير تمر صغير </name>
+    <code>119</code>
+    <itemcode>119</itemcode>
+    <itembarcode>119</itembarcode>
+    <packageprice>5</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>120</id>
+    <name>عصير تمر كبير </name>
+    <code>120</code>
+    <itemcode>120</itemcode>
+    <itembarcode>120</itembarcode>
+    <packageprice>10</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>121</id>
+    <name>طبق جبنه صغير </name>
+    <code>121</code>
+    <itemcode>121</itemcode>
+    <itembarcode>121</itembarcode>
+    <packageprice>5</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>122</id>
+    <name>طبق فول صغير </name>
+    <code>122</code>
+    <itemcode>122</itemcode>
+    <itembarcode>122</itembarcode>
+    <packageprice>5</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>123</id>
+    <name>طبق مسقعه صغير </name>
+    <code>123</code>
+    <itemcode>123</itemcode>
+    <itembarcode>123</itembarcode>
+    <packageprice>5</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>124</id>
+    <name>طبق بطاطس مهروسه صغير </name>
+    <code>124</code>
+    <itemcode>124</itemcode>
+    <itembarcode>124</itembarcode>
+    <packageprice>5</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>125</id>
+    <name>طبق مشكل سحور </name>
+    <code>125</code>
+    <itemcode>125</itemcode>
+    <itembarcode>125</itembarcode>
+    <packageprice>10</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>126</id>
+    <name>4 رغيف عيش </name>
+    <code>126</code>
+    <itemcode>126</itemcode>
+    <itembarcode>126</itembarcode>
+    <packageprice>1</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>127</id>
+    <name>طبق سحور مشكل اساسى </name>
+    <code>127</code>
+    <itemcode>127</itemcode>
+    <itembarcode>127</itembarcode>
+    <packageprice>18</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>128</id>
+    <name>صنيه السحور لارج </name>
+    <code>128</code>
+    <itemcode>128</itemcode>
+    <itembarcode>128</itembarcode>
+    <packageprice>35</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>129</id>
+    <name>صنيه سحور</name>
+    <code>129</code>
+    <itemcode>129</itemcode>
+    <itembarcode>129</itembarcode>
+    <packageprice>35</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>130</id>
+    <name>صنيه سحور صغيره</name>
+    <code>130</code>
+    <itemcode>130</itemcode>
+    <itembarcode>130</itembarcode>
+    <packageprice>23</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>131</id>
+    <name>طبق بيض صغير 2بيضه </name>
+    <code>131</code>
+    <itemcode>131</itemcode>
+    <itembarcode>131</itembarcode>
+    <packageprice>5</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>132</id>
+    <name>طبق بذنجان صغير </name>
+    <code>132</code>
+    <itemcode>132</itemcode>
+    <itembarcode>132</itembarcode>
+    <packageprice>5</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>133</id>
+    <name>عرض علبه هند الخمسه بخمسه</name>
+    <code>133</code>
+    <itemcode>133</itemcode>
+    <itembarcode>133</itembarcode>
+    <packageprice>20</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>134</id>
+    <name>عرض علبه لارج الخمسه بخمسه </name>
+    <code>134</code>
+    <itemcode>134</itemcode>
+    <itembarcode>134</itembarcode>
+    <packageprice>27</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>135</id>
+    <name>صنف شراء</name>
+    <code>135</code>
+    <itemcode>135</itemcode>
+    <itembarcode>135</itembarcode>
+    <packageprice>0</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>136</id>
+    <name>مشتريات</name>
+    <code>136</code>
+    <itemcode>136</itemcode>
+    <itembarcode>136</itembarcode>
+    <packageprice>0</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+  <LOV>
+    <id>137</id>
+    <name>مشتريات 2</name>
+    <code>137</code>
+    <itemcode>137</itemcode>
+    <itembarcode>137</itembarcode>
+    <packageprice>0</packageprice>
+    <package>1</package>
+    <packagename>حبة</packagename>
+    <itemnotes>0</itemnotes>
+  </LOV>
+</NewDataSet>
