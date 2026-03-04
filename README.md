@@ -27,3 +27,6 @@ If your reports are not working correctly, please perform the following checks a
    Check the `Reports` folder to ensure that there are files inside both the `Arabic` and `English` subfolders.
 2. **Reinstall SAP Crystal Reports Runtime**:
    Uninstall the existing SAP software, then reinstall it by running the `CRRuntime_64bit_13_0_12.msi` file.
+
+### Changing the Background Image
+If you want to change the background image without changing the overall theme, rename your desired image file to `default`.
