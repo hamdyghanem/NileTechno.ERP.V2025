@@ -1,3 +1,32 @@
+IF NOT EXISTS (
+    SELECT * FROM sys.columns 
+    WHERE object_id = OBJECT_ID(N'[dbo].[fw_Objects]') 
+    AND name = 'DetailsProcedure'
+)
+BEGIN
+    ALTER TABLE [dbo].[fw_Objects]
+    ADD [DetailsProcedure] NVARCHAR(200) NULL;
+END
+
+IF NOT EXISTS (
+    SELECT * FROM sys.columns 
+    WHERE object_id = OBJECT_ID(N'[dbo].[fw_Objects]') 
+    AND name = 'ReportFile'
+)
+BEGIN
+    ALTER TABLE [dbo].[fw_Objects]
+    ADD [ReportFile] NVARCHAR(200) NULL;
+END
+
+IF NOT EXISTS (
+    SELECT * FROM sys.columns 
+    WHERE object_id = OBJECT_ID(N'[dbo].[fw_Users]') 
+    AND name = 'FilterByUserID'
+)
+BEGIN
+    ALTER TABLE [dbo].[fw_Users]
+    ADD [FilterByUserID] INT NULL;
+END
 
 go
 
