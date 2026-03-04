@@ -2,7 +2,6 @@
 
 ## Introduction 
 NileTechno.ERP System V2025
-يتم نقله للبرنامج
 
 ## How to Download
 To download the package, click on the green **Code** button and then click **Download ZIP**:
