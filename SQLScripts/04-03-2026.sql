@@ -1,7 +1,10 @@
 
 go
 
-Create  PROCEDURE GetUserPasswordHash_desktop  
+IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'GetUserPasswordHash_desktop')
+    DROP PROCEDURE [dbo].[GetUserPasswordHash_desktop]
+GO
+CREATE PROCEDURE GetUserPasswordHash_desktop  
 @CompanyName nvarchar(50)        
 ,@USERNAME nvarchar(50)        
 AS        
@@ -15,6 +18,9 @@ and Status= 1
 
 go
 
+IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'usp_GetUserDashboardData')
+    DROP PROCEDURE [dbo].[usp_GetUserDashboardData]
+GO
 CREATE PROCEDURE usp_GetUserDashboardData    
     @UserId    NVARCHAR(50),    
     @BranchID  INT,    
@@ -56,6 +62,9 @@ END;
 
 GO
 
+IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'sp_fw_LoadAllControls')
+    DROP PROCEDURE [dbo].[sp_fw_LoadAllControls]
+GO
 CREATE Proc [dbo].[sp_fw_LoadAllControls] (@UserID int,    
 @lang as nvarchar(5)      
 )        
@@ -82,13 +91,19 @@ end
 GO
 
 
-CREATE  Proc [dbo].[sp_fw_LoadAllfw_ObjectReports] (@Module int)     as     begin     select fw_ObjectReports.* from fw_ObjectReports   
+IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'sp_fw_LoadAllfw_ObjectReports')
+    DROP PROCEDURE [dbo].[sp_fw_LoadAllfw_ObjectReports]
+GO
+CREATE Proc [dbo].[sp_fw_LoadAllfw_ObjectReports] (@Module int)     as     begin     select fw_ObjectReports.* from fw_ObjectReports   
 inner join fw_Objects on fw_Objects .ID= ObjectID    where  fw_Objects.ObjectModule=@Module        end
 
 
 GO
 
 
+IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'sp_fw_GetUserMenuData')
+    DROP PROCEDURE [dbo].[sp_fw_GetUserMenuData]
+GO
 CREATE Proc [dbo].[sp_fw_GetUserMenuData] (@BranchID int,@UserID int,@module Int,    
     @Lang NVARCHAR(5) = null    
 )        
