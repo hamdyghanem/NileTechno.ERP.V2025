@@ -17,3 +17,13 @@ Run `NileTechno.ERP.exe`
 ---
 **Important**
 Run any database scripts if there is any in the `SQLScripts` folder.
+
+## Troubleshooting
+
+### Reports Are Not Working
+If your reports are not working correctly, please perform the following checks and actions:
+
+1. **Verify Report Language Folders**: 
+   Check the `Reports` folder to ensure that there are files inside both the `Arabic` and `English` subfolders.
+2. **Reinstall SAP Crystal Reports Runtime**:
+   Uninstall the existing SAP software, then reinstall it by running the `CRRuntime_64bit_13_0_12.msi` file.
