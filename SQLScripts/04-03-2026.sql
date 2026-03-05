@@ -211,12 +211,11 @@ CREATE Proc SP_fw_Add_RecentForm( @userid as int ,@objectid as int )
 as    
 begin    
 IF EXISTS(SELECT *  FROM  fw_RecentForm  WHERE userid=@userid and objectid=@objectid )    
-    
  update fw_RecentForm set OpenCount=OpenCount+1 where userid=@userid and objectid=@objectid    
 else    
     
-insert  into fw_RecentForm    
-Select @userid , @objectid ,1    
+    INSERT INTO fw_RecentForm (UserId, ObjectId, OpenCount)
+    Values ( @userid , @objectid ,1 )    
     
 end    
 GO
