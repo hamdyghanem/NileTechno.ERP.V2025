@@ -1,3 +1,324 @@
+IF NOT EXISTS (
+   SELECT 1 
+    FROM fw_HostSettings
+    WHERE SettingName = 'WH_DetailTax_Round'
+)
+BEGIN
+  insert into fw_HostSettings (SettingName,SettingValue,SettingDescription)
+  values ('WH_DetailTax_Round',2,'ÊÞÑíÈÇ ÇáÖÑíÈå Ýì ÔÇå ÇáãÈíÚÇÊ 2 ÏíÌíÊ ÇáÑÞã ÇáãßÊæÈ Ýì ÇáÓíÊäÌ åæ ßÇã ÑÞã ÈÚÏ ÇáÚáÇãå')
+
+END
+go 
+IF NOT EXISTS (
+   SELECT 1 
+    FROM fw_HostSettings
+    WHERE SettingName = 'WH_UsePriceAfterTaxInsteadOfPrice'
+)
+BEGIN
+  insert into fw_HostSettings (SettingName,SettingValue,SettingDescription)
+  values ('WH_UsePriceAfterTaxInsteadOfPrice',0,'äßÊÈ ÇáÓÚÑ ÈÚÏ ÇáÖÑíÈå æÇáÔÇÔå åì åÊÍÓÈ ÇáÓÚÑ ÞÈá ÇáÖÑíÈå')
+
+END
+go
+--------------ÇáÞíæÏ
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'gl_Tempentrydetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table gl_Tempentrydetails
+add serial float 
+end 
+---------------------ÇáÔíßÇÊ
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'gL_CheckDetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table gL_CheckDetails
+add serial float 
+
+end 
+--------------------------------------ÇáÔíßÇÊ
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'gL_TransCheckDetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table gL_TransCheckDetails
+add serial float 
+
+end 
+
+-----------------------------ÇáÊÑßíÈÇÊ
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_AssemblyDetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_AssemblyDetails
+add serial float 
+
+end 
+------------------------------- ÇáÊÍãíá æ ÇáÊÍæíá
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_CarTransDetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_CarTransDetails
+add serial float 
+
+end 
+
+-------------------------------ÇáÑíÓíÈí
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_ConRecipeDetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_ConRecipeDetails
+add serial float 
+
+end 
+---------------------------------------ÇáÊÍæíáÇÊ ÇáäÞÏíå
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_CashTransfers'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_CashTransfers
+add serial float 
+
+end 
+---------------------------- ÇáãÓÊåáßÇÊ
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_ConRecipeDetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_ConRecipeDetails
+add serial float 
+
+end 
+
+
+---------------------------- ÇáÇÚÊãÇÏÇÊ ÇáãÓÊäÏíå
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_DocumentaryCreditDetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_DocumentaryCreditDetails
+add serial float 
+
+end 
+
+
+---------------------------- ÇáãÕÑæÝÇÊ ÇáãÊæÞÚå ááÇäÊÇÌ 
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_EstimatedExpensesDetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_EstimatedExpensesDetails
+add serial float 
+
+end 
+
+
+
+---------------------------- ÇáÇíÏÇÚ æ ÇáÕÑÝ ÇáÈäßí 
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_InOutBank'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_InOutBank
+add serial float 
+
+end 
+
+---------------------------- ÇáãÕÑæÝÇÊ 
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_InOutCashDetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_InOutCashDetails
+add serial float 
+end 
+
+---------------------------- ÝæÇÊíÑ 
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_invTransDetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_invTransDetails
+add serial float 
+
+end 
+
+---------------------------- ÇáãÇßíäÇÊ 
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_MachinesDetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_MachinesDetails
+add serial float 
+
+end 
+
+---------------------------- ÊÇÑÌÊ ÇÕäÇÝ 
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_MonthlyItemTargetDetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_MonthlyItemTargetDetails
+add serial float 
+
+end 
+
+---------------------------- ÊÇÑÌÊ ãäÏæÈ 
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_MonthlySalesRepTargetDetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_MonthlySalesRepTargetDetails
+add serial float 
+
+end 
+---------------------------- ÇáÇäÊÇÌ  
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'Wh_ProductionDetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table Wh_ProductionDetails
+add serial float 
+
+end 
+---------------------------- ÞÈÖ æ ÕÑÝ æ ÇÔÚÇÑÇÊ  
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_PrTrans'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_PrTrans
+add serial float 
+
+end 
+
+---------------------------- ÏíÊíá ÍÑßÇÊ
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_TransDetails'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_TransDetails
+add serial float 
+
+end 
+----------------------------  ÏíÊíá ÍÑßÇÊ ãÞÓãå
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_TransDetailDivision'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_TransDetailDivision
+add serial float 
+
+end 
+
+----------------------------  ÏíÊíá ÍÑßÇÊ ÈÇÊÔÇÊ
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_TransDetailBatches'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_TransDetailBatches
+add serial float 
+
+end 
+
+----------------------------  ÏíÊíá ÍÑßÇÊ ÇæÇãÑ ÈíÚ
+
+if not exists (
+ SELECT 1
+    FROM INFORMATION_SCHEMA.COLUMNS
+    WHERE TABLE_NAME = 'wh_TransDetailsOrders'
+      AND COLUMN_NAME = 'serial'
+)
+begin 
+alter table wh_TransDetailsOrders
+add serial float 
+
+end 
+
+GO
+
 IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[fw_RecentForm]') AND type in (N'U'))
 BEGIN
 CREATE TABLE [dbo].[fw_RecentForm](
