@@ -1,3 +1,18 @@
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[fw_RecentForm]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[fw_RecentForm](
+	[ID] [int] NOT NULL,
+	[UserID] [bigint] NOT NULL,
+	[ObjectID] [bigint] NOT NULL,
+	[OpenCount] [bigint] NOT NULL,
+ CONSTRAINT [PK_fw_RecentForm] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+
 IF NOT EXISTS (
     SELECT * FROM sys.columns 
     WHERE object_id = OBJECT_ID(N'[dbo].[fw_Objects]') 
@@ -17,6 +32,7 @@ BEGIN
     ALTER TABLE [dbo].[fw_Objects]
     ADD [ReportFile] NVARCHAR(200) NULL;
 END
+GO
 
 IF NOT EXISTS (
     SELECT * FROM sys.columns 
@@ -27,8 +43,19 @@ BEGIN
     ALTER TABLE [dbo].[fw_Users]
     ADD [FilterByUserID] INT NULL;
 END
+GO
 
-go
+IF NOT EXISTS (
+    SELECT * FROM sys.columns 
+    WHERE object_id = OBJECT_ID(N'[dbo].[fw_TableInfo]') 
+    AND name = 'HasPrintCount'
+)
+BEGIN
+    ALTER TABLE [dbo].[fw_TableInfo]
+    ADD [HasPrintCount] BIT NULL;
+END
+
+GO
 
 IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'GetUserPasswordHash_desktop')
     DROP PROCEDURE [dbo].[GetUserPasswordHash_desktop]
@@ -171,4 +198,22 @@ if @Lang is null begin set @Lang='_AR' end
               end
 
 
+GO
+
+IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'SP_fw_Add_RecentForm')
+    DROP PROCEDURE [dbo].[SP_fw_Add_RecentForm]
+GO
+
+CREATE Proc SP_fw_Add_RecentForm( @userid as int ,@objectid as int )    
+as    
+begin    
+IF EXISTS(SELECT *  FROM  fw_RecentForm  WHERE userid=@userid and objectid=@objectid )    
+    
+ update fw_RecentForm set OpenCount=OpenCount+1 where userid=@userid and objectid=@objectid    
+else    
+    
+insert  into fw_RecentForm    
+Select @userid , @objectid ,1    
+    
+end    
 GO
