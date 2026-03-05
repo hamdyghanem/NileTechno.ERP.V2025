@@ -54,7 +54,10 @@ BEGIN
     ALTER TABLE [dbo].[fw_TableInfo]
     ADD [HasPrintCount] BIT NULL;
 END
+GO
 
+ALTER TABLE [dbo].[fw_Users]
+ALTER COLUMN [Password] NVARCHAR(600) NULL;
 GO
 
 IF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'GetUserPasswordHash_desktop')
