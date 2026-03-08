@@ -1,0 +1,167 @@
+{
+  "LoggedUserName": null,
+  "MainSettings": {
+    "Attachment": false,
+    "SaveLog": true,
+    "ShowYear": false,
+    "ShowBranch": false,
+    "Language": 1,
+    "ToBeUser": "Blue",
+    "A4Printer": "",
+    "EncryptUserName": false
+  },
+  "ServerSettings": {
+    "ServerName": null,
+    "ServerUserName": null,
+    "ServerPasswordEncrypt": null,
+    "ServerDataBaseName": null,
+    "OnCloud": false,
+    "AthunticationType": 0,
+    "DatabaseBackupPath": null
+  },
+  "InvoiceSettings": {
+    "InvoicePayType": 2,
+    "InvoiceSalesSalesRepisMandatory": false,
+    "InvoiceCustomerRecieveSalesRepisMandatory": false,
+    "SalesCanSaleLessThanCost": true,
+    "InvSearchItemKeyBySupplier": {
+      "Key": 114,
+      "Ctrl": 1
+    },
+    "InvoiceCopyNum": 1,
+    "InvoicePrintHow": 0,
+    "InvoicePreview": true,
+    "InvSearchItemKey": {
+      "Key": 114,
+      "Ctrl": 0
+    },
+    "SalesCustomerItemDiscount": false,
+    "SalesCustomerItemPrice": false,
+    "SalesCanSaveZeroPrice": true,
+    "WHSalesDivision": {
+      "Key": 117,
+      "Ctrl": 1
+    }
+  },
+  "POSSettings": {
+    "PosReceiptRestore": {
+      "Key": 113,
+      "Ctrl": 0
+    },
+    "PosFocusDelivery": {
+      "Key": 119,
+      "Ctrl": 0
+    },
+    "PosFocusSalesRep": {
+      "Key": 119,
+      "Ctrl": 1
+    },
+    "PosReturn": {
+      "Key": 82,
+      "Ctrl": 2
+    },
+    "PosVisa": {
+      "Key": 86,
+      "Ctrl": 1
+    },
+    "PosChangePrice": {
+      "Key": 67,
+      "Ctrl": 1
+    },
+    "PosPayAndClose": {
+      "Key": 120,
+      "Ctrl": 1
+    },
+    "PosFocusDiscountR": true,
+    "PosResOffLine": false,
+    "PosResItemWidth": 100,
+    "PosResItemHeight": 100,
+    "PosResItemPadding": 20,
+    "PosResKitchenItemGroup": 0,
+    "PosResKitchenArea": 0,
+    "PosPrintNo": 1,
+    "PosTabletPrint": false,
+    "ResItemGroupNumInColumn": 1,
+    "ResItemSubGroupNumInColumn": 1,
+    "PosResItemGroupWidth": 100,
+    "PosResItemGroupHeight": 100,
+    "PosResItemGroupPadding": 20,
+    "PosResItemSubGroupWidth": 100,
+    "PosResItemSubGroupHeight": 100,
+    "PosResItemSubGroupPadding": 20,
+    "PosCashierDisplay": false,
+    "PosMarketName": "NileTechno Demo Market",
+    "PosCashierDisplayComNo": 1,
+    "PosDiscountWithoutSuperUser": false,
+    "PosResPrintKitchen": false,
+    "PosResPrintKitchenAll": false,
+    "PosTabletResPrintKitchen": false,
+    "POSPaymentPort": "",
+    "Modem": "-",
+    "PosShowPriceSelectItem": false,
+    "PosPayWithoutPrint": {
+      "Key": 118,
+      "Ctrl": 2
+    },
+    "PosEnableCtrlN": false,
+    "PosSalesRepIDIsMandatory": false,
+    "PosAutoRecieveCall": true,
+    "PosTableDetails": {
+      "Key": 123,
+      "Ctrl": 1
+    },
+    "PosClientCardDiscount": {
+      "Key": 123,
+      "Ctrl": 2
+    },
+    "PosCashierCashDrawerComNo": 0,
+    "PosEditDeliveryClient": {
+      "Key": 121,
+      "Ctrl": 2
+    },
+    "PosWholeCloseReciept": {
+      "Key": 123,
+      "Ctrl": 0
+    },
+    "PosChangeDeliveryValue": false,
+    "PosOffLine": false,
+    "PrintReciept": true,
+    "PosStoreID": 1,
+    "PosTerminalID": 2,
+    "ReceiptPrinter": "",
+    "StopInQty": false,
+    "PosSearchItemKey": {
+      "Key": 114,
+      "Ctrl": 0
+    },
+    "PosQueryItemKey": {
+      "Key": 115,
+      "Ctrl": 0
+    },
+    "PosHoldKey": {
+      "Key": 117,
+      "Ctrl": 0
+    },
+    "PosReturnHoldKey": {
+      "Key": 118,
+      "Ctrl": 0
+    },
+    "PosGridFocusKey": {
+      "Key": 119,
+      "Ctrl": 0
+    },
+    "PosPaidFocusKey": {
+      "Key": 120,
+      "Ctrl": 0
+    },
+    "LockedBarCode": true,
+    "UpQtyOnly": true
+  },
+  "HRSettings": {
+    "HREmailSender": "",
+    "HREmailPasswordEncrypt": null,
+    "HRSmtpServer": "",
+    "HRSmtpPort": "",
+    "HREnableSsl": false
+  }
+}
